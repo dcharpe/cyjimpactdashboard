@@ -1,0 +1,91 @@
+﻿@model CYJ.Models.GOALACTUAL
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_mytemplate.cshtml";
+
+}
+
+<h2>Deactivating Goal and Actual</h2>
+
+<h3>Are you sure you want to deactivate this?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.goalValue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.goalValue)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.actualGoal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.actualGoal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CATEGORy.categoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CATEGORy.categoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FISCALYEAR.fiscalYearID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FISCALYEAR.fiscalYearID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QUARTEROPTION.quarteroptionName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QUARTEROPTION.quarteroptionName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SUBCATEGORy.subcategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SUBCATEGORy.subcategoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TEAM.teamName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TEAM.teamName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WORKSTREAM.workstreamName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WORKSTREAM.workstreamName)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> 
+            <div class="col-md-3">
+                <input type="button" class="btn btn-info" value="Back to Goals and Actuals List" onclick="@("window.location.href='" + @Url.Action("Index", "GOALACTUALs") + "'");" />
+            </div>
+        </div>
+    }
+</div>

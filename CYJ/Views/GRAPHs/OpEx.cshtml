@@ -1,0 +1,34 @@
+﻿@model DotNet.Highcharts.Highcharts
+@{
+    Layout = "~/Views/Shared/_mytemplate.cshtml";
+}
+<div class="content">
+    <div class="container-fluid">
+        @using (Html.BeginForm("ExternalAffairs", "GRAPHs", FormMethod.Post))
+        {
+
+            <div class="card">
+                <div class="card-header" style="BACKGROUND-COLOR:#BCC65C">
+                    <h4 class="title">Graphs</h4>
+                </div>
+                <div class="card-content">
+                    <div class="row">
+                        <div>
+                            Category
+                            @Html.DropDownList("categoryID", null, htmlAttributes: new { @class = "form-control" })
+                            <br />
+                            Subcategory
+                            @Html.DropDownList("subcategoryID", null, htmlAttributes: new { @class = "form-control" })
+                            <br />
+                            Fiscal Year
+                            @Html.DropDownList("FiscalYearID", null, htmlAttributes: new { @class = "form-control" })
+                            <input type="submit" value="Submit" />
+                        </div>
+                    </div>
+                    <script src="~/Scripts/Highcharts-4.0.1/js/highcharts.js"></script>
+                </div>
+            </div>
+
+        }
+    </div>
+</div>

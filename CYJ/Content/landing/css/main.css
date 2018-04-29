@@ -1,0 +1,1912 @@
+/* ---- Backgrounds ---- */
+
+/* change the white background */
+.gray-bg {
+  background: #eeedee;
+}
+
+
+/* ---- White Space ---- */
+
+/* this is where space is added between the fonts and containers */
+.section {
+  padding-top: 160px;
+  padding-bottom: 100px;
+}
+
+/* ---- Section Headings ---- */
+.sec-heading {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+/* the descriptions after the headings */
+.sec-heading .subheading {
+  display: block;
+  text-transform: uppercase;
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  color: black;
+  letter-spacing: 2.5px;
+}
+
+
+
+
+/* --------------------------------------------------
+	1.0 Typography
+-------------------------------------------------- */
+mark {
+  background: #cafe48;
+}
+
+
+
+/* copyright */
+/* ---- 1.1 Text ---- */
+body, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  line-height: 1.8em;
+  color: red;
+}
+
+h1,
+h2,
+h3,
+.page-title .subheading,
+h4,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .team-3col .t-item .t-info .t-role,
+.team-4col .t-item .t-info .t-role, .freelancer-about .t-item .t-info .t-role, .t-join .t-info .t-role
+{
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  color: red;
+  text-transform: uppercase;
+}
+
+.dropcaps:first-child:first-letter {
+  padding: 6px 13px;
+  margin-right: 3px;
+  background: blue;
+  color: #111;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+/* ---- 1.2 Headings ---- */
+h1, .comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer {
+  font-size: 1.7em;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: 1.5em;
+  letter-spacing: 4px;
+}
+
+h3, .page-title .subheading {
+  font-size: 1.3em;
+  letter-spacing: 3.5px;
+}
+
+h4, .ft-tabs .tabs-list li a .tab-group .tab-heading, .testimonials-3col .t-item blockquote footer cite, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .team-3col .t-item .t-info .t-role, .team-4col .t-item .t-info .t-role, .freelancer-about .t-item .t-info .t-role, .t-join .t-info .t-role, .login-2 .bg-overlay .form-wrapper .form-content .cards-header, .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead {
+  font-size: 1.07em;
+  letter-spacing: 3px;
+}
+
+h5, .ft-boxed-hover ul li .hover-content .ft-heading, .ft-tabs .tabs-list li a .tab-group .tab-info, .sidebar .comments-widget .widget-item span .widget-comm-title, .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .shop-layout-options span {
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+h6, .progress-group .progress-title,
+.progress-group .progress-value, .accordions-1 .panel .panel-heading .panel-title, .footer-social-links ul li, .footer-contact .contact-info .show-info-link, .footer-contact .contact-info address ul li .adr-heading, .footer-contact .contact-info address .show-map, .footer-litle address ul li .adr-group .adr-heading, .ft-cards .ft-item a, .ft-cards-2 .ft-card-item .ft-content .link-btn, .ft-boxed-hover ul li .hover-content a, .circles-counters .circle-item .circle-text, .circles-counters-dark-bg .circle-item .circle-text, .number-counters .count-wrapper .count-item .count-text, .number-counters-dark-bg .count-wrapper .count-item .count-text, .project-nav nav .nav-btns li a, .pricing-tables .p-table .desc, .blog-post-nav .prev-btn,
+.blog-post-nav .next-btn, .sidebar .tags-widget .tag-list li a, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group p, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a, .landing-hero .heading-wrapper .cta-btn, .shop-sidebar .filter-widget label, .shop-sidebar-vertical .filter-widget label, .shop-sidebar .tags-widget .tag-list li a, .shop-sidebar-vertical .tags-widget .tag-list li a, .checkout-table tbody tr td:first-child, .prod-reviews .tp-review .tpr-name {
+  font-size: 0.85em;
+  letter-spacing: 2px;
+}
+
+.h-alt {
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+/* ---- 1.3 Links ---- */
+a {
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+
+p > a:visited {
+  color: #1c8cbc;
+  text-decoration: none;
+}
+
+p > a:visited:hover,
+p > a:visited:focus {
+  color: #2caadf;
+  text-decoration: none;
+}
+
+/* ---- 1.4 Blockquotes ---- */
+blockquote, .wrapper-404 .content-wrapper .info-wrapper .info-404, .bg-maintenance .content-wrapper .content-inner p {
+  border: none;
+  padding: 0;
+  font-size: 1.3em;
+  letter-spacing: .5px;
+}
+
+blockquote footer, .wrapper-404 .content-wrapper .info-wrapper .info-404 footer, .bg-maintenance .content-wrapper .content-inner p footer {
+  padding-top: 25px;
+}
+
+blockquote footer:before, .wrapper-404 .content-wrapper .info-wrapper .info-404 footer:before, .bg-maintenance .content-wrapper .content-inner p footer:before {
+  content: '-';
+}
+
+blockquote footer cite, .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .bg-maintenance .content-wrapper .content-inner p footer cite {
+  text-transform: uppercase;
+  color: #999;
+  font-style: normal;
+  font-size: .85em;
+  letter-spacing: 2px;
+}
+
+.alt-blockquote {
+  padding: 50px;
+  background: #f4f4f4;
+}
+
+/* ---- 1.5 Lists ---- */
+.flat-list {
+  list-style: none;
+}
+
+.flat-list li {
+  margin-bottom: 10px;
+}
+
+.flat-list li i:before {
+  padding-right: 15px;
+}
+
+/* ---- 1.6 PAGE - Typography ---- */
+.headings-example ul {
+  list-style: none;
+}
+
+.headings-example ul li {
+  padding-bottom: 30px;
+}
+
+.headings-example ul li:last-child {
+  padding-bottom: 0;
+}
+
+
+
+/* --------------------------------------------------
+	2.0 Buttons
+-------------------------------------------------- */
+/* ---- 2.1 Defualt Buttons ---- */
+.btn, .btn-ghost, .btn-ghost-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light, .btn-text, .btn-text-light, .btn-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light {
+  position: relative;
+  display: inline-block;
+  padding: 8px 38px;
+  background: #111;
+  color: #ececec;
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-size: 0.9em;
+  line-height: 1.8em;
+  border-radius: 0;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+}
+
+.btn:visited, .btn-ghost:visited, .btn-ghost-light:visited, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:visited, .btn-text:visited, .btn-text-light:visited, .btn-light:visited, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:visited, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:visited {
+  color: #ececec;
+  background: #111;
+}
+
+.btn:visited:hover, .btn-ghost:visited:hover, .btn-ghost-light:visited:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:visited:hover, .btn-text:visited:hover, .btn-text-light:visited:hover, .btn-light:visited:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:visited:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:visited:hover {
+  color: #ececec;
+  background: #3f3f3f;
+}
+
+.btn:hover, .btn-ghost:hover, .btn-ghost-light:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:hover, .btn-text:hover, .btn-text-light:hover, .btn-light:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:hover {
+  color: #ececec;
+  background: #3f3f3f;
+}
+
+.btn:focus, .btn-ghost:focus, .btn-ghost-light:focus, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:focus, .btn-text:focus, .btn-text-light:focus, .btn-light:focus, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:focus, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:focus {
+  color: #ececec;
+  outline: none;
+}
+
+/* ---- 2.2 Ghost Buttons ---- */
+.btn-ghost, .btn-ghost-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light {
+  background: none;
+  color: #111;
+  border: 2px solid #111;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn-ghost:after, .btn-ghost-light:after, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:after {
+  content: '';
+  position: absolute;
+  background: #111;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: top 0.3s;
+          transition: top 0.3s;
+  z-index: -1;
+}
+
+.btn-ghost:visited,
+.btn-ghost-light:visited,
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:visited,
+.btn-ghost:focus, .btn-ghost-light:focus, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:focus {
+  color: #111;
+  text-decoration: none;
+}
+
+.btn-ghost:hover, .btn-ghost-light:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:hover {
+  color: #ececec;
+  background: none;
+}
+
+.btn-ghost:hover:visited, .btn-ghost-light:hover:visited, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:hover:visited {
+  color: #ececec;
+  text-decoration: none;
+}
+
+.btn-ghost:hover:after, .btn-ghost-light:hover:after, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:hover:after {
+  top: 0;
+}
+
+input[class="btn-ghost"]:hover {
+  color: #ececec;
+  background: #111;
+}
+
+input[class="btn-ghost"]:after {
+  content: none;
+}
+
+/* ---- 2.3 Buttons Rounded ---- */
+.btn-round {
+  border-radius: 25px;
+}
+
+/* ---- 2.4 Text Buttons ---- */
+.btn-text, .btn-text-light {
+  background: none;
+  border: 2px solid rgba(17, 17, 17, 0);
+  color: #777;
+}
+
+.btn-text:visited, .btn-text-light:visited {
+  color: #777;
+  background: none;
+}
+
+.btn-text:visited:hover, .btn-text-light:visited:hover {
+  color: #111;
+  background: none;
+  border: 2px solid #111111;
+}
+
+.btn-text:hover, .btn-text-light:hover {
+  color: #111;
+  background: none;
+  border: 2px solid #111111;
+}
+
+.btn-text:focus, .btn-text-light:focus {
+  color: #111;
+  outline: none;
+  text-decoration: none;
+}
+
+/* ---- 2.5 Button Sizes ---- */
+.btn-large {
+  padding: 10px 54px;
+  font-size: 1.1em;
+  letter-spacing: 3px;
+}
+
+.btn-small {
+  padding: 6px 33px;
+  font-size: 0.75em;
+}
+
+/* ---- 2.6 Light Buttons ---- */
+.btn-light {
+  color: #111;
+  background: #ececec;
+}
+
+.btn-light:visited {
+  color: #111;
+  background: #ececec;
+}
+
+.btn-light:visited:hover {
+  color: #111;
+  background: #bebebe;
+}
+
+.btn-light:hover {
+  color: #111;
+  background: #bebebe;
+}
+
+.btn-light:focus {
+  color: #111;
+}
+
+.btn-ghost-light {
+  z-index: 1;
+  border-color: #ececec;
+  color: #ececec;
+}
+
+.btn-ghost-light:after {
+  background: #ececec;
+}
+
+.btn-ghost-light:hover {
+  color: #111;
+}
+
+.btn-ghost-light:hover:visited {
+  color: #111;
+}
+
+.btn-ghost-light:visited {
+  color: #ececec;
+}
+
+input[class="btn-ghost-light"] {
+  z-index: 1;
+}
+
+input[class="btn-ghost-light"]:hover {
+  z-index: 1;
+  color: #111;
+  background: #ececec;
+}
+
+.btn-text-light {
+  border: 2px solid rgba(235, 235, 235, 0);
+}
+
+.btn-text-light:visited:hover {
+  color: #ececec;
+  border: 2px solid #ebebeb;
+}
+
+.btn-text-light:hover {
+  color: #ececec;
+  border: 2px solid #ebebeb;
+}
+
+.btn-text-light:focus {
+  color: #ececec;
+}
+
+/* ---- 2.7 Pagination ---- */
+.pagination li a {
+  border-radius: 0 !important;
+  border: 2px solid rgba(17, 17, 17, 0);
+  height: 42px;
+  width: 42px;
+  line-height: 1.9em;
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  color: #777;
+}
+
+.pagination li a i {
+  padding-top: 7px;
+  display: block;
+}
+
+.pagination li a:focus,
+.pagination li a:visited {
+  background: none;
+  border: 2px solid rgba(17, 17, 17, 0);
+}
+
+.pagination li a:hover {
+  color: #111;
+  background: none;
+  border: 2px solid #111111;
+}
+
+.pagination .active a {
+  border: 2px solid #111111;
+  background: none;
+  color: #111;
+}
+
+.pagination .active a:hover {
+  background: none;
+  border-color: #111;
+  color: #111;
+}
+
+/* ---- 2.7 PAGE - Buttons ---- */
+.btn-example {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+
+/* --------------------------------------------------
+	4.0 Headers/Page Titles
+-------------------------------------------------- */
+/* ---- 4.1 Breadcrumbs ---- */
+.breadcrumb {
+  bottom: 7px;
+  margin-bottom: 0;
+  background: none;
+  text-transform: uppercase;
+  font-size: .85em;
+  letter-spacing: 2px;
+}
+
+.breadcrumb li a {
+  color: #999;
+}
+
+.breadcrumb li a:focus {
+  text-decoration: none;
+}
+
+.breadcrumb li a:hover {
+  color: #ececec;
+}
+
+.breadcrumb li + li:before {
+  color: #777;
+}
+
+.breadcrumb .active {
+  color: #777;
+}
+
+/* ---- 4.2 Header/Page Title ---- */
+.page-title {
+  position: relative;
+  background: #f4f4f4;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.page-title h1, .page-title .comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .page-title .nbr-timer {
+  margin: 0;
+}
+
+.page-title .subheading {
+  display: block;
+  margin: 20px 0 0 0;
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  color: #777;
+}
+
+.page-title .breadcrumb li a {
+  color: #777;
+}
+
+.page-title .breadcrumb li a:hover {
+  color: #111;
+}
+
+.page-title .breadcrumb .active {
+  color: #999;
+}
+
+/* ---- 4.3 Header/Page Title Styles ---- */
+.pt-dark {
+  background: #111;
+}
+
+.pt-dark h1, .pt-dark .comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .pt-dark .nbr-timer {
+  color: #ececec;
+}
+
+.pt-dark .breadcrumb li a {
+  color: #999;
+}
+
+.pt-dark .breadcrumb li a:hover {
+  color: #ececec;
+}
+
+.pt-dark .breadcrumb .active {
+  color: #777;
+}
+
+/* ---- 4.4 Header/Page Title Sizes ---- */
+.pt-small {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pt-small h1, .pt-small .comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .pt-small .nbr-timer {
+  margin: 0;
+  padding: 0;
+}
+
+.pt-small .breadcrumb {
+  padding: 0;
+}
+
+.pt-large {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+/* ---- 4.5 Header/Page Title Parallax ---- */
+.pt-plax-md-dark {
+  background: url(../images/pt-bg-1.jpg);
+  background-size: cover;
+  background-position: 50%;
+}
+
+.pt-plax-md-dark:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(17, 17, 17, 0.55);
+}
+
+.pt-plax-md-light {
+  background: url(../images/pt-bg-2.jpg);
+  background-size: cover;
+}
+
+.pt-plax-md-light:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(244, 244, 244, 0.85);
+}
+
+.pt-plax-lg-dark {
+  background: url(../images/pt-bg-3.jpg);
+  background-size: cover;
+}
+
+.pt-plax-lg-dark:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(17, 17, 17, 0.83);
+}
+
+.pt-plax-lg-light {
+  background: url(../images/pt-bg-3.jpg);
+  background-size: cover;
+}
+
+.pt-plax-lg-light:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(244, 244, 244, 0.83);
+}
+
+/* --------------------------------------------------
+	7.0 Footers
+-------------------------------------------------- */
+.copyright {
+  background: #222;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.copyright small {
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+}
+
+.copyright small a:hover {
+  color: #ececec;
+}
+
+.copyright small a:focus {
+  text-decoration: none;
+}
+
+.copyright .to-the-top {
+  color: #777;
+}
+
+.copyright .to-the-top i {
+  padding-left: 7px;
+  font-size: 21px;
+  vertical-align: top;
+}
+
+
+
+/* --------------------------------------------------
+	9.0 Feature
+-------------------------------------------------- */
+/* ---- 9.1 Feature - Cards ---- */
+
+
+.ft-cards .ft-item:hover {
+  -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+.ft-cards .ft-item span {
+  font-size: 64px;
+  color: #111;
+}
+
+.ft-cards .ft-item h4, .ft-cards .ft-item .ft-tabs .tabs-list li a .tab-group .tab-heading, .ft-tabs .tabs-list li a .tab-group .ft-cards .ft-item .tab-heading, .ft-cards .ft-item .testimonials-3col .t-item blockquote footer cite, .testimonials-3col .t-item blockquote footer .ft-cards .ft-item cite, .ft-cards .ft-item .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .ft-cards .ft-item cite, .ft-cards .ft-item .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .ft-cards .ft-item cite, .ft-cards .ft-item .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .ft-cards .ft-item cite, .ft-cards .ft-item .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .ft-cards .ft-item cite, .ft-cards .ft-item .team-3col .t-item .t-info .t-role, .team-3col .t-item .t-info .ft-cards .ft-item .t-role, .ft-cards .ft-item .team-4col .t-item .t-info .t-role, .team-4col .t-item .t-info .ft-cards .ft-item .t-role, .ft-cards .ft-item .freelancer-about .t-item .t-info .t-role, .freelancer-about .t-item .t-info .ft-cards .ft-item .t-role, .ft-cards .ft-item .t-join .t-info .t-role, .t-join .t-info .ft-cards .ft-item .t-role, .ft-cards .ft-item .login-2 .bg-overlay .form-wrapper .form-content .cards-header, .login-2 .bg-overlay .form-wrapper .form-content .ft-cards .ft-item .cards-header, .ft-cards .ft-item .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead, .login-2 .bg-overlay .form-wrapper .social-signup .social-card .ft-cards .ft-item .sc-lead {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.ft-cards .ft-item p {
+  padding: 0;
+  margin: 0;
+}
+
+.ft-cards .ft-item a {
+  padding-top: 50px;
+  display: block;
+  text-align: right;
+  color: #999;
+}
+
+.ft-cards .ft-item a:hover {
+  color: #111;
+}
+
+.ft-cards .ft-item a:focus {
+  text-decoration: none;
+}
+
+.ft-cards .ft-item a span {
+  display: inline-block;
+  font-size: 25px;
+  vertical-align: top;
+  color: inherit;
+}
+
+/* ---- 9.2 Feature - Cards 2 ---- */
+.ft-cards-2 .ft-card-item {
+  margin-bottom: 50px;
+  height: 254px;
+  background: yellow;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.ft-cards-2 .ft-card-item:hover {
+  -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+.ft-cards-2 .ft-card-item img {
+  display: inline-block;
+  max-width: 240px;
+  float: left;
+}
+
+.ft-cards-2 .ft-card-item .ft-content {
+  display: inline-block;
+  padding: 50px 40px;
+  width: 56%;
+}
+
+.ft-cards-2 .ft-card-item .ft-content h5, .ft-cards-2 .ft-card-item .ft-content .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .ft-cards-2 .ft-card-item .ft-content .ft-heading, .ft-cards-2 .ft-card-item .ft-content .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .ft-cards-2 .ft-card-item .ft-content .tab-info, .ft-cards-2 .ft-card-item .ft-content .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .ft-cards-2 .ft-card-item .ft-content .widget-comm-title, .ft-cards-2 .ft-card-item .ft-content .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .ft-cards-2 .ft-card-item .ft-content .title-timer, .ft-cards-2 .ft-card-item .ft-content .shop-layout-options span, .shop-layout-options .ft-cards-2 .ft-card-item .ft-content span {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.ft-cards-2 .ft-card-item .ft-content p {
+  margin: 0;
+  color: #999;
+}
+
+.ft-cards-2 .ft-card-item .ft-content .link-btn {
+  display: inline-block;
+  margin-top: 30px;
+  float: right;
+  color: #777;
+  -webkit-transform: translateX(30px);
+      -ms-transform: translateX(30px);
+          transform: translateX(30px);
+  -webkit-transition: -webkit-transform 0.4s;
+          transition: transform 0.4s;
+}
+
+.ft-cards-2 .ft-card-item .ft-content .link-btn span {
+  display: inline-block;
+  font-size: 23px;
+  vertical-align: top;
+  -webkit-transform: translateX(-30px);
+      -ms-transform: translateX(-30px);
+          transform: translateX(-30px);
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+          transition: all 0.4s;
+}
+
+.ft-cards-2 .ft-card-item .ft-content .link-btn:hover {
+  color: #111;
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.ft-cards-2 .ft-card-item .ft-content .link-btn:hover span {
+  opacity: 1;
+  -webkit-transform: translateX(5px);
+      -ms-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+.ft-cards-2 .ft-card-item .ft-content .link-btn:focus {
+  text-decoration: none;
+}
+
+/* ---- 9.3 Feature - Steps Numbers ---- */
+.ft-steps-numbers .ft-item {
+  display: block;
+  position: relative;
+}
+
+.ft-steps-numbers .ft-item .ft-nbr {
+  display: inline-block;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  color: rgba(204, 204, 204, 0.4);
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 165px;
+}
+
+.ft-steps-numbers .ft-item h4, .ft-steps-numbers .ft-item .ft-tabs .tabs-list li a .tab-group .tab-heading, .ft-tabs .tabs-list li a .tab-group .ft-steps-numbers .ft-item .tab-heading, .ft-steps-numbers .ft-item .testimonials-3col .t-item blockquote footer cite, .testimonials-3col .t-item blockquote footer .ft-steps-numbers .ft-item cite, .ft-steps-numbers .ft-item .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .ft-steps-numbers .ft-item cite, .ft-steps-numbers .ft-item .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .ft-steps-numbers .ft-item cite, .ft-steps-numbers .ft-item .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .ft-steps-numbers .ft-item cite, .ft-steps-numbers .ft-item .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .ft-steps-numbers .ft-item cite, .ft-steps-numbers .ft-item .team-3col .t-item .t-info .t-role, .team-3col .t-item .t-info .ft-steps-numbers .ft-item .t-role, .ft-steps-numbers .ft-item .team-4col .t-item .t-info .t-role, .team-4col .t-item .t-info .ft-steps-numbers .ft-item .t-role, .ft-steps-numbers .ft-item .freelancer-about .t-item .t-info .t-role, .freelancer-about .t-item .t-info .ft-steps-numbers .ft-item .t-role, .ft-steps-numbers .ft-item .t-join .t-info .t-role, .t-join .t-info .ft-steps-numbers .ft-item .t-role, .ft-steps-numbers .ft-item .login-2 .bg-overlay .form-wrapper .form-content .cards-header, .login-2 .bg-overlay .form-wrapper .form-content .ft-steps-numbers .ft-item .cards-header, .ft-steps-numbers .ft-item .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead, .login-2 .bg-overlay .form-wrapper .social-signup .social-card .ft-steps-numbers .ft-item .sc-lead {
+  margin: 0;
+  padding-bottom: 20px;
+  padding-left: 85px;
+}
+
+.ft-steps-numbers .ft-item p {
+  margin: 0;
+  padding-left: 85px;
+}
+
+/* ---- 9.4 Feature - Centered ---- */
+.ft-centered .ft-item, .ft-x .ft-item, .ft-y .ft-item {
+  text-align: center;
+}
+
+.ft-centered .ft-item h5, .ft-x .ft-item h5, .ft-y .ft-item h5, .ft-centered .ft-item .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .ft-centered .ft-item .ft-heading, .ft-x .ft-item .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .ft-x .ft-item .ft-heading, .ft-y .ft-item .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .ft-y .ft-item .ft-heading, .ft-centered .ft-item .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .ft-centered .ft-item .tab-info, .ft-x .ft-item .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .ft-x .ft-item .tab-info, .ft-y .ft-item .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .ft-y .ft-item .tab-info, .ft-centered .ft-item .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .ft-centered .ft-item .widget-comm-title, .ft-x .ft-item .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .ft-x .ft-item .widget-comm-title, .ft-y .ft-item .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .ft-y .ft-item .widget-comm-title, .ft-centered .ft-item .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .ft-centered .ft-item .title-timer, .ft-x .ft-item .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .ft-x .ft-item .title-timer, .ft-y .ft-item .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .ft-y .ft-item .title-timer, .ft-centered .ft-item .shop-layout-options span, .shop-layout-options .ft-centered .ft-item span, .ft-x .ft-item .shop-layout-options span, .shop-layout-options .ft-x .ft-item span, .ft-y .ft-item .shop-layout-options span, .shop-layout-options .ft-y .ft-item span {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.ft-centered .ft-item span, .ft-x .ft-item span, .ft-y .ft-item span {
+  padding: 0;
+  width: 110px;
+  height: 110px;
+  font-size: 45px;
+  line-height: 109px;
+}
+
+.ft-centered .ft-material:hover span,
+.ft-x .ft-material:hover span,
+.ft-y .ft-material:hover span, .ft-centered .ft-material:hover i, .ft-x .ft-material:hover i, .ft-y .ft-material:hover i {
+  -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+.ft-centered .ft-material span,
+.ft-x .ft-material span,
+.ft-y .ft-material span, .ft-centered .ft-material i, .ft-x .ft-material i, .ft-y .ft-material i {
+  display: inline-block;
+  border: 1px solid #f8f8f8;
+  border-radius: 100px;
+  background: #fff;
+  color: #777;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.ft-centered .ft-diagonal span,
+.ft-x .ft-diagonal span,
+.ft-y .ft-diagonal span, .ft-centered .ft-diagonal i, .ft-x .ft-diagonal i, .ft-y .ft-diagonal i {
+  display: inline-block;
+  color: #111;
+  background: url(../images/pat-diagonal.png) 100% repeat;
+  border-radius: 100px;
+}
+
+.ft-centered .ft-circle-frame:hover span,
+.ft-x .ft-circle-frame:hover span,
+.ft-y .ft-circle-frame:hover span, .ft-centered .ft-square-frame:hover span, .ft-x .ft-square-frame:hover span, .ft-y .ft-square-frame:hover span, .ft-centered .ft-circle-frame-dark:hover span, .ft-x .ft-circle-frame-dark:hover span, .ft-y .ft-circle-frame-dark:hover span, .ft-centered .ft-square-frame-dark:hover span, .ft-x .ft-square-frame-dark:hover span, .ft-y .ft-square-frame-dark:hover span, .ft-centered .ft-circle-frame:hover i, .ft-x .ft-circle-frame:hover i, .ft-y .ft-circle-frame:hover i, .ft-centered .ft-square-frame:hover i, .ft-x .ft-square-frame:hover i, .ft-y .ft-square-frame:hover i, .ft-centered .ft-circle-frame-dark:hover i, .ft-x .ft-circle-frame-dark:hover i, .ft-y .ft-circle-frame-dark:hover i, .ft-centered .ft-square-frame-dark:hover i, .ft-x .ft-square-frame-dark:hover i, .ft-y .ft-square-frame-dark:hover i {
+  border-color: #ececec;
+  box-shadow: 0 0 0 0 #ececec;
+}
+
+.ft-centered .ft-circle-frame span,
+.ft-x .ft-circle-frame span,
+.ft-y .ft-circle-frame span, .ft-centered .ft-square-frame span, .ft-x .ft-square-frame span, .ft-y .ft-square-frame span, .ft-centered .ft-circle-frame-dark span, .ft-x .ft-circle-frame-dark span, .ft-y .ft-circle-frame-dark span, .ft-centered .ft-square-frame-dark span, .ft-x .ft-square-frame-dark span, .ft-y .ft-square-frame-dark span, .ft-centered .ft-circle-frame i, .ft-x .ft-circle-frame i, .ft-y .ft-circle-frame i, .ft-centered .ft-square-frame i, .ft-x .ft-square-frame i, .ft-y .ft-square-frame i, .ft-centered .ft-circle-frame-dark i, .ft-x .ft-circle-frame-dark i, .ft-y .ft-circle-frame-dark i, .ft-centered .ft-square-frame-dark i, .ft-x .ft-square-frame-dark i, .ft-y .ft-square-frame-dark i {
+  display: inline-block;
+  color: #111;
+  background: #ececec;
+  border: 5px solid white;
+  box-shadow: 0 0 0 1px #ececec;
+  border-radius: 100px;
+  line-height: 102px;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+}
+
+.ft-centered .ft-square-frame span,
+.ft-x .ft-square-frame span,
+.ft-y .ft-square-frame span, .ft-centered .ft-square-frame i, .ft-x .ft-square-frame i, .ft-y .ft-square-frame i {
+  width: 100px;
+  height: 100px;
+  border-radius: 0;
+  font-size: 45px;
+  text-align: center;
+  line-height: 90px;
+}
+
+.ft-centered .ft-dark-spin:hover span,
+.ft-x .ft-dark-spin:hover span,
+.ft-y .ft-dark-spin:hover span, .ft-centered .ft-dark-spin:hover i, .ft-x .ft-dark-spin:hover i, .ft-y .ft-dark-spin:hover i {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  border: 1px solid #cccccc;
+  background: #fff;
+  color: #111;
+}
+
+.ft-centered .ft-dark-spin span,
+.ft-x .ft-dark-spin span,
+.ft-y .ft-dark-spin span, .ft-centered .ft-dark-spin i, .ft-x .ft-dark-spin i, .ft-y .ft-dark-spin i {
+  display: inline-block;
+  color: #f8f8f8;
+  border: 1px solid rgba(17, 17, 17, 0);
+  background: #111;
+  border-radius: 100px;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.ft-centered .ft-circle-frame-dark:hover span,
+.ft-x .ft-circle-frame-dark:hover span,
+.ft-y .ft-circle-frame-dark:hover span, .ft-centered .ft-square-frame-dark:hover span, .ft-x .ft-square-frame-dark:hover span, .ft-y .ft-square-frame-dark:hover span, .ft-centered .ft-circle-frame-dark:hover i, .ft-x .ft-circle-frame-dark:hover i, .ft-y .ft-circle-frame-dark:hover i, .ft-centered .ft-square-frame-dark:hover i, .ft-x .ft-square-frame-dark:hover i, .ft-y .ft-square-frame-dark:hover i {
+  border-color: #111111;
+}
+
+.ft-centered .ft-circle-frame-dark span,
+.ft-x .ft-circle-frame-dark span,
+.ft-y .ft-circle-frame-dark span, .ft-centered .ft-square-frame-dark span, .ft-x .ft-square-frame-dark span, .ft-y .ft-square-frame-dark span, .ft-centered .ft-circle-frame-dark i, .ft-x .ft-circle-frame-dark i, .ft-y .ft-circle-frame-dark i, .ft-centered .ft-square-frame-dark i, .ft-x .ft-square-frame-dark i, .ft-y .ft-square-frame-dark i {
+  color: #f8f8f8;
+  background: #111;
+  border: 5px solid white;
+  box-shadow: 0 0 0 1px #111;
+}
+
+.ft-centered .ft-square-frame-dark span,
+.ft-x .ft-square-frame-dark span,
+.ft-y .ft-square-frame-dark span, .ft-centered .ft-square-frame-dark i, .ft-x .ft-square-frame-dark i, .ft-y .ft-square-frame-dark i {
+  width: 100px;
+  height: 100px;
+  border-radius: 0;
+  font-size: 45px;
+  text-align: center;
+  line-height: 90px;
+}
+
+.ft-centered .ft-small-card, .ft-x .ft-small-card, .ft-y .ft-small-card {
+  padding: 50px 30px;
+  background: #f8f8f8;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.ft-centered .ft-small-card:hover, .ft-x .ft-small-card:hover, .ft-y .ft-small-card:hover {
+  -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+.ft-centered .ft-small-card:hover span,
+.ft-x .ft-small-card:hover span,
+.ft-y .ft-small-card:hover span, .ft-centered .ft-small-card:hover i, .ft-x .ft-small-card:hover i, .ft-y .ft-small-card:hover i {
+  color: #111;
+}
+
+.ft-centered .ft-small-card span,
+.ft-x .ft-small-card span,
+.ft-y .ft-small-card span, .ft-centered .ft-small-card i, .ft-x .ft-small-card i, .ft-y .ft-small-card i {
+  display: block;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  width: auto;
+  height: auto;
+  line-height: 0;
+  font-size: 64px;
+  color: #777;
+  -webkit-transition: color 0.7s;
+          transition: color 0.7s;
+}
+
+.ft-centered .ft-circle-overlay:hover span,
+.ft-x .ft-circle-overlay:hover span,
+.ft-y .ft-circle-overlay:hover span, .ft-centered .ft-square-overlay:hover span, .ft-x .ft-square-overlay:hover span, .ft-y .ft-square-overlay:hover span, .ft-centered .ft-circle-overlay:hover i, .ft-x .ft-circle-overlay:hover i, .ft-y .ft-circle-overlay:hover i, .ft-centered .ft-square-overlay:hover i, .ft-x .ft-square-overlay:hover i, .ft-y .ft-square-overlay:hover i {
+  background: #f4f4f4;
+}
+
+.ft-centered .ft-circle-overlay span,
+.ft-x .ft-circle-overlay span,
+.ft-y .ft-circle-overlay span, .ft-centered .ft-square-overlay span, .ft-x .ft-square-overlay span, .ft-y .ft-square-overlay span, .ft-centered .ft-circle-overlay i, .ft-x .ft-circle-overlay i, .ft-y .ft-circle-overlay i, .ft-centered .ft-square-overlay i, .ft-x .ft-square-overlay i, .ft-y .ft-square-overlay i {
+  display: inline-block;
+  color: #111;
+  border-radius: 100px;
+  background: #ececec;
+  border: 10px solid #f4f4f4;
+  line-height: 90px;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.ft-centered .ft-square-overlay span,
+.ft-x .ft-square-overlay span,
+.ft-y .ft-square-overlay span, .ft-centered .ft-square-overlay i, .ft-x .ft-square-overlay i, .ft-y .ft-square-overlay i {
+  border-radius: 0;
+}
+
+.ft-centered .ft-basic span,
+.ft-x .ft-basic span,
+.ft-y .ft-basic span, .ft-centered .ft-basic i, .ft-x .ft-basic i, .ft-y .ft-basic i {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+/* ---- 9.5 Feature - Horizontal Aligned ---- */
+.ft-x .ft-item, .ft-y .ft-item {
+  text-align: left;
+}
+
+.ft-x .ft-item h5, .ft-y .ft-item h5, .ft-x .ft-item .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .ft-x .ft-item .ft-heading, .ft-y .ft-item .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .ft-y .ft-item .ft-heading, .ft-x .ft-item .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .ft-x .ft-item .tab-info, .ft-y .ft-item .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .ft-y .ft-item .tab-info, .ft-x .ft-item .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .ft-x .ft-item .widget-comm-title, .ft-y .ft-item .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .ft-y .ft-item .widget-comm-title, .ft-x .ft-item .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .ft-x .ft-item .title-timer, .ft-y .ft-item .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .ft-y .ft-item .title-timer, .ft-x .ft-item .shop-layout-options span, .shop-layout-options .ft-x .ft-item span, .ft-y .ft-item .shop-layout-options span, .shop-layout-options .ft-y .ft-item span {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.ft-x .ft-item span,
+.ft-y .ft-item span,
+.ft-x .ft-item i, .ft-y .ft-item i {
+  display: inline-block;
+  margin: 25px 35px 50px 0;
+  padding: 28px 26px;
+  width: 85px;
+  height: 85px;
+  float: left;
+  font-size: 28px;
+  line-height: 28px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.ft-x .ft-material span,
+.ft-y .ft-material span,
+.ft-x .ft-material i, .ft-y .ft-material i {
+  color: #111;
+}
+
+.ft-x .ft-circle-frame span,
+.ft-y .ft-circle-frame span,
+.ft-x .ft-square-frame span, .ft-y .ft-square-frame span, .ft-x .ft-circle-frame-dark span, .ft-y .ft-circle-frame-dark span, .ft-x .ft-square-frame-dark span, .ft-y .ft-square-frame-dark span, .ft-x .ft-circle-frame i, .ft-y .ft-circle-frame i, .ft-x .ft-square-frame i, .ft-y .ft-square-frame i, .ft-x .ft-circle-frame-dark i, .ft-y .ft-circle-frame-dark i, .ft-x .ft-square-frame-dark i, .ft-y .ft-square-frame-dark i {
+  padding: 24px 25px;
+}
+
+.ft-x .ft-square-frame span,
+.ft-y .ft-square-frame span,
+.ft-x .ft-square-frame i,
+.ft-y .ft-square-frame i,
+.ft-x .ft-square-frame-dark span,
+.ft-y .ft-square-frame-dark span,
+.ft-x .ft-square-frame-dark i, .ft-y .ft-square-frame-dark i {
+  width: 80px;
+  height: 80px;
+  padding: 21px 23px;
+}
+
+.ft-x .ft-circle-overlay span,
+.ft-y .ft-circle-overlay span,
+.ft-x .ft-square-overlay span, .ft-y .ft-square-overlay span, .ft-x .ft-circle-overlay i, .ft-y .ft-circle-overlay i, .ft-x .ft-square-overlay i, .ft-y .ft-square-overlay i {
+  padding: 20px;
+  border: 10px solid #f4f4f4;
+}
+
+.ft-x .ft-basic span,
+.ft-y .ft-basic span,
+.ft-x .ft-basic i, .ft-y .ft-basic i {
+  padding: 0;
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.ft-x .right-align .ft-content, .ft-y .right-align .ft-content {
+  display: inline-block;
+  width: 62%;
+  text-align: right;
+}
+
+.ft-x .right-align .ft-icon, .ft-y .right-align .ft-icon {
+  float: right;
+  display: inline-block;
+  margin-left: 20px;
+  width: 30%;
+}
+
+/* ---- 9.6 Feature - Vertical Aligned ---- */
+.ft-y .ft-item span,
+.ft-y .ft-item i {
+  display: inline-block;
+  margin: 0;
+  float: none;
+}
+
+.ft-y .right-align {
+  text-align: right;
+}
+
+/* ---- 9.7 Feature - Boxed Hover List ---- */
+.ft-boxed-hover ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ft-boxed-hover ul li {
+  display: inline-block;
+  position: relative;
+  width: 25%;
+  float: left;
+  margin-top: -1px;
+  margin-left: -1px;
+  padding: 50px;
+  border: 1px solid #ddd;
+  background: #fff;
+  text-align: center;
+  -webkit-transition: border-color 0.3s;
+          transition: border-color 0.3s;
+}
+
+.ft-boxed-hover ul li:hover {
+  border-color: #111;
+}
+
+.ft-boxed-hover ul li:hover .hover-content {
+  opacity: 1;
+}
+
+.ft-boxed-hover ul li .ft-icon {
+  font-size: 56px;
+  color: #777;
+}
+
+.ft-boxed-hover ul li .h-alt {
+  color: #999;
+}
+
+.ft-boxed-hover ul li .hover-content {
+  display: block;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.ft-boxed-hover ul li .hover-content .ft-icon {
+  position: absolute;
+  display: block;
+  top: 50px;
+  left: 0;
+  right: 0;
+  font-size: 120px;
+  color: rgba(217, 217, 217, 0.15);
+  z-index: 1;
+}
+
+.ft-boxed-hover ul li .hover-content .ft-heading {
+  display: block;
+  margin: 0;
+  padding-bottom: 15px;
+  color: #ececec;
+}
+
+.ft-boxed-hover ul li .hover-content p {
+  margin: 0;
+  color: #999;
+}
+
+.ft-boxed-hover ul li .hover-content a {
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+  color: #999;
+  z-index: 10 !important;
+}
+
+.ft-boxed-hover ul li .hover-content a:hover {
+  color: #ececec;
+}
+
+.ft-boxed-hover ul li .hover-content a:focus {
+  outline: none;
+}
+
+/* ---- 9.8 Feature - Tabs ---- */
+.ft-tabs .tabs-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ft-tabs .tabs-list li {
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+}
+
+.ft-tabs .tabs-list li:nth-child(2),
+.ft-tabs .tabs-list li:nth-child(3) {
+  margin-top: -1px;
+}
+
+.ft-tabs .tabs-list li a {
+  display: block;
+  padding: 50px;
+  border-left: 10px solid rgba(17, 17, 17, 0);
+}
+
+.ft-tabs .tabs-list li a:hover {
+  background: #f8f8f8;
+}
+
+.ft-tabs .tabs-list li a:focus {
+  text-decoration: none;
+}
+
+.ft-tabs .tabs-list li a .tab-icon {
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 50px;
+  color: #111;
+}
+
+.ft-tabs .tabs-list li a .tab-group {
+  text-align: left;
+  float: right;
+}
+
+.ft-tabs .tabs-list li a .tab-group .tab-heading {
+  display: block;
+  color: #111;
+}
+
+.ft-tabs .tabs-list li a .tab-group .tab-info {
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  letter-spacing: 2px;
+  color: #999;
+}
+
+.ft-tabs .tabs-list .active a {
+  border-left: 10px solid #111111;
+  background: #f4f4f4;
+}
+
+.ft-tabs .tab-content {
+  height: 475px;
+  background: #f4f4f4;
+}
+
+.ft-tabs .tab-content .tab-content-text {
+  padding-top: 110px;
+  padding-left: 80px;
+}
+
+.ft-tabs .tab-content .tab-content-text h4, .ft-tabs .tab-content .tab-content-text .tabs-list li a .tab-group .tab-heading, .ft-tabs .tabs-list li a .tab-group .tab-content .tab-content-text .tab-heading, .ft-tabs .tab-content .tab-content-text .testimonials-3col .t-item blockquote footer cite, .testimonials-3col .t-item blockquote footer .ft-tabs .tab-content .tab-content-text cite, .ft-tabs .tab-content .tab-content-text .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .ft-tabs .tab-content .tab-content-text cite, .ft-tabs .tab-content .tab-content-text .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .ft-tabs .tab-content .tab-content-text cite, .ft-tabs .tab-content .tab-content-text .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .ft-tabs .tab-content .tab-content-text cite, .ft-tabs .tab-content .tab-content-text .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .ft-tabs .tab-content .tab-content-text cite, .ft-tabs .tab-content .tab-content-text .team-3col .t-item .t-info .t-role, .team-3col .t-item .t-info .ft-tabs .tab-content .tab-content-text .t-role, .ft-tabs .tab-content .tab-content-text .team-4col .t-item .t-info .t-role, .team-4col .t-item .t-info .ft-tabs .tab-content .tab-content-text .t-role, .ft-tabs .tab-content .tab-content-text .freelancer-about .t-item .t-info .t-role, .freelancer-about .t-item .t-info .ft-tabs .tab-content .tab-content-text .t-role, .ft-tabs .tab-content .tab-content-text .t-join .t-info .t-role, .t-join .t-info .ft-tabs .tab-content .tab-content-text .t-role, .ft-tabs .tab-content .tab-content-text .login-2 .bg-overlay .form-wrapper .form-content .cards-header, .login-2 .bg-overlay .form-wrapper .form-content .ft-tabs .tab-content .tab-content-text .cards-header, .ft-tabs .tab-content .tab-content-text .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead, .login-2 .bg-overlay .form-wrapper .social-signup .social-card .ft-tabs .tab-content .tab-content-text .sc-lead {
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+.ft-tabs .tab-content .tab-content-text p {
+  margin: 0;
+}
+
+.ft-tabs .tab-content .tab-content-text button {
+  margin-top: 45px;
+}
+
+.ft-tabs .tab-content .tab-content-image {
+  padding-top: 110px;
+}
+
+/* ---- 9.9 Lists ---- */
+.list-check, .list-square-check, .list-circle-check, .list-square-check-full, .list-circle-check-full {
+  list-style: none;
+}
+
+.list-check li, .list-square-check li, .list-circle-check li, .list-square-check-full li, .list-circle-check-full li {
+  margin-bottom: 30px;
+}
+
+.list-check li:before, .list-square-check li:before, .list-circle-check li:before, .list-square-check-full li:before, .list-circle-check-full li:before {
+  content: "\e01b";
+  position: absolute;
+  left: 0;
+  font-family: "linea-icon-font";
+  font-size: 40px;
+  color: #111;
+}
+
+.list-square-check li, .list-circle-check li {
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.list-square-check li:before, .list-circle-check li:before {
+  content: "\e081";
+  font-size: 50px;
+}
+
+.list-circle-check li:before {
+  content: "\e01c";
+}
+
+.list-square-check-full li, .list-circle-check-full li {
+  margin-left: 20px;
+  padding-top: 1px;
+}
+
+.list-square-check-full li:before, .list-circle-check-full li:before {
+  display: inline-block;
+  padding-top: 12px;
+  width: 50px;
+  height: 50px;
+  background: #ececec;
+  font-size: 35px;
+  text-align: center;
+}
+
+.list-circle-check-full li:before {
+  border-radius: 100px;
+}
+
+.list-basic {
+  list-style: none;
+}
+
+.list-basic li {
+  margin-bottom: 30px;
+}
+
+/* ---- 9.10 Feature Layout 50/50 ---- */
+.ft-layout-50 .ft-item .ft-content-wrapper {
+  padding: 75px 15% 75px 100px;
+  height: 450px;
+  background: #f4f4f4;
+}
+
+.ft-layout-50 .ft-item .ft-content-wrapper h4,
+.ft-layout-50 .ft-item .ft-content-wrapper .ft-tabs .tabs-list li a .tab-group .tab-heading,
+.ft-tabs .tabs-list li a .tab-group .ft-layout-50 .ft-item .ft-content-wrapper .tab-heading, .ft-layout-50 .ft-item .ft-content-wrapper .testimonials-3col .t-item blockquote footer cite,
+.testimonials-3col .t-item blockquote footer .ft-layout-50 .ft-item .ft-content-wrapper cite, .ft-layout-50 .ft-item .ft-content-wrapper .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .ft-layout-50 .ft-item .ft-content-wrapper cite, .ft-layout-50 .ft-item .ft-content-wrapper .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .ft-layout-50 .ft-item .ft-content-wrapper cite, .ft-layout-50 .ft-item .ft-content-wrapper .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite,
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .ft-layout-50 .ft-item .ft-content-wrapper cite, .ft-layout-50 .ft-item .ft-content-wrapper .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .ft-layout-50 .ft-item .ft-content-wrapper cite, .ft-layout-50 .ft-item .ft-content-wrapper .team-3col .t-item .t-info .t-role,
+.team-3col .t-item .t-info .ft-layout-50 .ft-item .ft-content-wrapper .t-role, .ft-layout-50 .ft-item .ft-content-wrapper .team-4col .t-item .t-info .t-role,
+.team-4col .t-item .t-info .ft-layout-50 .ft-item .ft-content-wrapper .t-role, .ft-layout-50 .ft-item .ft-content-wrapper .freelancer-about .t-item .t-info .t-role,
+.freelancer-about .t-item .t-info .ft-layout-50 .ft-item .ft-content-wrapper .t-role, .ft-layout-50 .ft-item .ft-content-wrapper .t-join .t-info .t-role,
+.t-join .t-info .ft-layout-50 .ft-item .ft-content-wrapper .t-role, .ft-layout-50 .ft-item .ft-content-wrapper .login-2 .bg-overlay .form-wrapper .form-content .cards-header,
+.login-2 .bg-overlay .form-wrapper .form-content .ft-layout-50 .ft-item .ft-content-wrapper .cards-header, .ft-layout-50 .ft-item .ft-content-wrapper .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .ft-layout-50 .ft-item .ft-content-wrapper .sc-lead, .ft-layout-50 .ft-item .ft-content-wrapper h5,
+.ft-layout-50 .ft-item .ft-content-wrapper .ft-boxed-hover ul li .hover-content .ft-heading,
+.ft-boxed-hover ul li .hover-content .ft-layout-50 .ft-item .ft-content-wrapper .ft-heading, .ft-layout-50 .ft-item .ft-content-wrapper .ft-tabs .tabs-list li a .tab-group .tab-info,
+.ft-tabs .tabs-list li a .tab-group .ft-layout-50 .ft-item .ft-content-wrapper .tab-info, .ft-layout-50 .ft-item .ft-content-wrapper .sidebar .comments-widget .widget-item span .widget-comm-title,
+.sidebar .comments-widget .widget-item span .ft-layout-50 .ft-item .ft-content-wrapper .widget-comm-title, .ft-layout-50 .ft-item .ft-content-wrapper .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .ft-layout-50 .ft-item .ft-content-wrapper .title-timer, .ft-layout-50 .ft-item .ft-content-wrapper .shop-layout-options span,
+.shop-layout-options .ft-layout-50 .ft-item .ft-content-wrapper span, .ft-layout-50 .ft-item .ft-content-wrapper h6, .ft-layout-50 .ft-item .ft-content-wrapper .progress-group .progress-title, .progress-group .ft-layout-50 .ft-item .ft-content-wrapper .progress-title,
+.ft-layout-50 .ft-item .ft-content-wrapper .progress-group .progress-value, .progress-group .ft-layout-50 .ft-item .ft-content-wrapper .progress-value, .ft-layout-50 .ft-item .ft-content-wrapper .accordions-1 .panel .panel-heading .panel-title, .accordions-1 .panel .panel-heading .ft-layout-50 .ft-item .ft-content-wrapper .panel-title, .ft-layout-50 .ft-item .ft-content-wrapper .footer-social-links ul li, .footer-social-links ul .ft-layout-50 .ft-item .ft-content-wrapper li, .ft-layout-50 .ft-item .ft-content-wrapper .footer-contact .contact-info .show-info-link, .footer-contact .contact-info .ft-layout-50 .ft-item .ft-content-wrapper .show-info-link, .ft-layout-50 .ft-item .ft-content-wrapper .footer-contact .contact-info address ul li .adr-heading, .footer-contact .contact-info address ul li .ft-layout-50 .ft-item .ft-content-wrapper .adr-heading, .ft-layout-50 .ft-item .ft-content-wrapper .footer-contact .contact-info address .show-map, .footer-contact .contact-info address .ft-layout-50 .ft-item .ft-content-wrapper .show-map, .ft-layout-50 .ft-item .ft-content-wrapper .footer-litle address ul li .adr-group .adr-heading, .footer-litle address ul li .adr-group .ft-layout-50 .ft-item .ft-content-wrapper .adr-heading, .ft-layout-50 .ft-cards .ft-item .ft-content-wrapper a, .ft-cards .ft-layout-50 .ft-item .ft-content-wrapper a, .ft-layout-50 .ft-item .ft-content-wrapper .ft-cards-2 .ft-card-item .ft-content .link-btn, .ft-cards-2 .ft-card-item .ft-content .ft-layout-50 .ft-item .ft-content-wrapper .link-btn, .ft-layout-50 .ft-item .ft-content-wrapper .ft-boxed-hover ul li .hover-content a, .ft-boxed-hover ul li .hover-content .ft-layout-50 .ft-item .ft-content-wrapper a, .ft-layout-50 .ft-item .ft-content-wrapper .circles-counters .circle-item .circle-text, .circles-counters .circle-item .ft-layout-50 .ft-item .ft-content-wrapper .circle-text, .ft-layout-50 .ft-item .ft-content-wrapper .circles-counters-dark-bg .circle-item .circle-text, .circles-counters-dark-bg .circle-item .ft-layout-50 .ft-item .ft-content-wrapper .circle-text, .ft-layout-50 .ft-item .ft-content-wrapper .number-counters .count-wrapper .count-item .count-text, .number-counters .count-wrapper .count-item .ft-layout-50 .ft-item .ft-content-wrapper .count-text, .ft-layout-50 .ft-item .ft-content-wrapper .number-counters-dark-bg .count-wrapper .count-item .count-text, .number-counters-dark-bg .count-wrapper .count-item .ft-layout-50 .ft-item .ft-content-wrapper .count-text, .ft-layout-50 .ft-item .ft-content-wrapper .project-nav nav .nav-btns li a, .project-nav nav .nav-btns li .ft-layout-50 .ft-item .ft-content-wrapper a, .ft-layout-50 .ft-item .ft-content-wrapper .pricing-tables .p-table .desc, .pricing-tables .p-table .ft-layout-50 .ft-item .ft-content-wrapper .desc, .ft-layout-50 .ft-item .ft-content-wrapper .blog-post-nav .prev-btn, .blog-post-nav .ft-layout-50 .ft-item .ft-content-wrapper .prev-btn,
+.ft-layout-50 .ft-item .ft-content-wrapper .blog-post-nav .next-btn, .blog-post-nav .ft-layout-50 .ft-item .ft-content-wrapper .next-btn, .ft-layout-50 .ft-item .ft-content-wrapper .sidebar .tags-widget .tag-list li a, .sidebar .tags-widget .tag-list li .ft-layout-50 .ft-item .ft-content-wrapper a, .ft-layout-50 .ft-item .ft-content-wrapper .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .ft-layout-50 .ft-item .ft-content-wrapper span, .ft-layout-50 .ft-item .ft-content-wrapper .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .ft-layout-50 .ft-item .ft-content-wrapper a,
+.ft-layout-50 .ft-item .ft-content-wrapper .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .ft-layout-50 .ft-item .ft-content-wrapper p, .ft-layout-50 .ft-item .ft-content-wrapper .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .ft-layout-50 .ft-item .ft-content-wrapper a, .ft-layout-50 .ft-item .ft-content-wrapper .landing-hero .heading-wrapper .cta-btn, .landing-hero .heading-wrapper .ft-layout-50 .ft-item .ft-content-wrapper .cta-btn, .ft-layout-50 .ft-item .ft-content-wrapper .shop-sidebar .filter-widget label, .shop-sidebar .filter-widget .ft-layout-50 .ft-item .ft-content-wrapper label, .ft-layout-50 .ft-item .ft-content-wrapper .shop-sidebar-vertical .filter-widget label, .shop-sidebar-vertical .filter-widget .ft-layout-50 .ft-item .ft-content-wrapper label, .ft-layout-50 .ft-item .ft-content-wrapper .shop-sidebar .tags-widget .tag-list li a, .shop-sidebar .tags-widget .tag-list li .ft-layout-50 .ft-item .ft-content-wrapper a, .ft-layout-50 .ft-item .ft-content-wrapper .shop-sidebar-vertical .tags-widget .tag-list li a, .shop-sidebar-vertical .tags-widget .tag-list li .ft-layout-50 .ft-item .ft-content-wrapper a, .ft-layout-50 .ft-item .ft-content-wrapper .checkout-table tbody tr td:first-child, .checkout-table tbody tr .ft-layout-50 .ft-item .ft-content-wrapper td:first-child, .ft-layout-50 .ft-item .ft-content-wrapper .prod-reviews .tp-review .tpr-name, .prod-reviews .tp-review .ft-layout-50 .ft-item .ft-content-wrapper .tpr-name {
+  margin: 0;
+}
+
+.ft-layout-50 .ft-item .ft-content-wrapper h6, .ft-layout-50 .ft-item .ft-content-wrapper .progress-group .progress-title, .progress-group .ft-layout-50 .ft-item .ft-content-wrapper .progress-title,
+.ft-layout-50 .ft-item .ft-content-wrapper .progress-group .progress-value, .progress-group .ft-layout-50 .ft-item .ft-content-wrapper .progress-value, .ft-layout-50 .ft-item .ft-content-wrapper .accordions-1 .panel .panel-heading .panel-title, .accordions-1 .panel .panel-heading .ft-layout-50 .ft-item .ft-content-wrapper .panel-title, .ft-layout-50 .ft-item .ft-content-wrapper .footer-social-links ul li, .footer-social-links ul .ft-layout-50 .ft-item .ft-content-wrapper li, .ft-layout-50 .ft-item .ft-content-wrapper .footer-contact .contact-info .show-info-link, .footer-contact .contact-info .ft-layout-50 .ft-item .ft-content-wrapper .show-info-link, .ft-layout-50 .ft-item .ft-content-wrapper .footer-contact .contact-info address ul li .adr-heading, .footer-contact .contact-info address ul li .ft-layout-50 .ft-item .ft-content-wrapper .adr-heading, .ft-layout-50 .ft-item .ft-content-wrapper .footer-contact .contact-info address .show-map, .footer-contact .contact-info address .ft-layout-50 .ft-item .ft-content-wrapper .show-map, .ft-layout-50 .ft-item .ft-content-wrapper .footer-litle address ul li .adr-group .adr-heading, .footer-litle address ul li .adr-group .ft-layout-50 .ft-item .ft-content-wrapper .adr-heading, .ft-layout-50 .ft-cards .ft-item .ft-content-wrapper a, .ft-cards .ft-layout-50 .ft-item .ft-content-wrapper a, .ft-layout-50 .ft-item .ft-content-wrapper .ft-cards-2 .ft-card-item .ft-content .link-btn, .ft-cards-2 .ft-card-item .ft-content .ft-layout-50 .ft-item .ft-content-wrapper .link-btn, .ft-layout-50 .ft-item .ft-content-wrapper .ft-boxed-hover ul li .hover-content a, .ft-boxed-hover ul li .hover-content .ft-layout-50 .ft-item .ft-content-wrapper a, .ft-layout-50 .ft-item .ft-content-wrapper .circles-counters .circle-item .circle-text, .circles-counters .circle-item .ft-layout-50 .ft-item .ft-content-wrapper .circle-text, .ft-layout-50 .ft-item .ft-content-wrapper .circles-counters-dark-bg .circle-item .circle-text, .circles-counters-dark-bg .circle-item .ft-layout-50 .ft-item .ft-content-wrapper .circle-text, .ft-layout-50 .ft-item .ft-content-wrapper .number-counters .count-wrapper .count-item .count-text, .number-counters .count-wrapper .count-item .ft-layout-50 .ft-item .ft-content-wrapper .count-text, .ft-layout-50 .ft-item .ft-content-wrapper .number-counters-dark-bg .count-wrapper .count-item .count-text, .number-counters-dark-bg .count-wrapper .count-item .ft-layout-50 .ft-item .ft-content-wrapper .count-text, .ft-layout-50 .ft-item .ft-content-wrapper .project-nav nav .nav-btns li a, .project-nav nav .nav-btns li .ft-layout-50 .ft-item .ft-content-wrapper a, .ft-layout-50 .ft-item .ft-content-wrapper .pricing-tables .p-table .desc, .pricing-tables .p-table .ft-layout-50 .ft-item .ft-content-wrapper .desc, .ft-layout-50 .ft-item .ft-content-wrapper .blog-post-nav .prev-btn, .blog-post-nav .ft-layout-50 .ft-item .ft-content-wrapper .prev-btn,
+.ft-layout-50 .ft-item .ft-content-wrapper .blog-post-nav .next-btn, .blog-post-nav .ft-layout-50 .ft-item .ft-content-wrapper .next-btn, .ft-layout-50 .ft-item .ft-content-wrapper .sidebar .tags-widget .tag-list li a, .sidebar .tags-widget .tag-list li .ft-layout-50 .ft-item .ft-content-wrapper a, .ft-layout-50 .ft-item .ft-content-wrapper .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .ft-layout-50 .ft-item .ft-content-wrapper span, .ft-layout-50 .ft-item .ft-content-wrapper .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .ft-layout-50 .ft-item .ft-content-wrapper a,
+.ft-layout-50 .ft-item .ft-content-wrapper .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .ft-layout-50 .ft-item .ft-content-wrapper p, .ft-layout-50 .ft-item .ft-content-wrapper .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .ft-layout-50 .ft-item .ft-content-wrapper a, .ft-layout-50 .ft-item .ft-content-wrapper .landing-hero .heading-wrapper .cta-btn, .landing-hero .heading-wrapper .ft-layout-50 .ft-item .ft-content-wrapper .cta-btn, .ft-layout-50 .ft-item .ft-content-wrapper .shop-sidebar .filter-widget label, .shop-sidebar .filter-widget .ft-layout-50 .ft-item .ft-content-wrapper label, .ft-layout-50 .ft-item .ft-content-wrapper .shop-sidebar-vertical .filter-widget label, .shop-sidebar-vertical .filter-widget .ft-layout-50 .ft-item .ft-content-wrapper label, .ft-layout-50 .ft-item .ft-content-wrapper .shop-sidebar .tags-widget .tag-list li a, .shop-sidebar .tags-widget .tag-list li .ft-layout-50 .ft-item .ft-content-wrapper a, .ft-layout-50 .ft-item .ft-content-wrapper .shop-sidebar-vertical .tags-widget .tag-list li a, .shop-sidebar-vertical .tags-widget .tag-list li .ft-layout-50 .ft-item .ft-content-wrapper a, .ft-layout-50 .ft-item .ft-content-wrapper .checkout-table tbody tr td:first-child, .checkout-table tbody tr .ft-layout-50 .ft-item .ft-content-wrapper td:first-child, .ft-layout-50 .ft-item .ft-content-wrapper .prod-reviews .tp-review .tpr-name, .prod-reviews .tp-review .ft-layout-50 .ft-item .ft-content-wrapper .tpr-name {
+  margin-top: 15px;
+  margin-bottom: 50px;
+  color: #999;
+}
+
+.ft-layout-50 .ft-item .ft-content-wrapper p {
+  margin-bottom: 45px;
+}
+
+.ft-layout-50 .ft-item .ft-img-wrapper {
+  position: relative;
+  padding: 0;
+  height: 450px;
+  overflow: hidden;
+}
+
+.ft-layout-50 .ft-item .ft-img-wrapper img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.ft-layout-50 .ft-item .ft-img-wrapper .ft-video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(17, 17, 17, 0.6);
+}
+
+.ft-layout-50 .ft-item .ft-img-wrapper .ft-video-wrapper .play-btn {
+  display: block;
+  position: relative;
+  top: 44%;
+  -webkit-transform: translateY(-44%);
+      -ms-transform: translateY(-44%);
+          transform: translateY(-44%);
+  text-align: center;
+  color: #ececec;
+}
+
+.ft-layout-50 .ft-item .ft-img-wrapper .ft-video-wrapper .play-btn h5, .ft-layout-50 .ft-item .ft-img-wrapper .ft-video-wrapper .play-btn .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .ft-layout-50 .ft-item .ft-img-wrapper .ft-video-wrapper .play-btn .ft-heading, .ft-layout-50 .ft-item .ft-img-wrapper .ft-video-wrapper .play-btn .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .ft-layout-50 .ft-item .ft-img-wrapper .ft-video-wrapper .play-btn .tab-info, .ft-layout-50 .ft-item .ft-img-wrapper .ft-video-wrapper .play-btn .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .ft-layout-50 .ft-item .ft-img-wrapper .ft-video-wrapper .play-btn .widget-comm-title, .ft-layout-50 .ft-item .ft-img-wrapper .ft-video-wrapper .play-btn .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .ft-layout-50 .ft-item .ft-img-wrapper .ft-video-wrapper .play-btn .title-timer, .ft-layout-50 .ft-item .ft-img-wrapper .ft-video-wrapper .play-btn .shop-layout-options span, .shop-layout-options .ft-layout-50 .ft-item .ft-img-wrapper .ft-video-wrapper .play-btn span {
+  color: inherit;
+}
+
+/* ---- 9.11 Feature Hover Box ---- */
+.ft-hover-item .ft-item {
+  position: relative;
+  height: 440px;
+  -webkit-transition: all 0.4s;
+          transition: all 0.4s;
+}
+
+.ft-hover-item .ft-item .content-wrapper {
+  position: absolute;
+  left: 100px;
+  right: 100px;
+  bottom: 0;
+  -webkit-transition: all 0.4s;
+          transition: all 0.4s;
+}
+
+.ft-hover-item .ft-item .content-wrapper h3,
+.ft-hover-item .ft-item .content-wrapper .page-title .subheading,
+.page-title .ft-hover-item .ft-item .content-wrapper .subheading, .ft-hover-item .ft-item .content-wrapper h4,
+.ft-hover-item .ft-item .content-wrapper .ft-tabs .tabs-list li a .tab-group .tab-heading,
+.ft-tabs .tabs-list li a .tab-group .ft-hover-item .ft-item .content-wrapper .tab-heading, .ft-hover-item .ft-item .content-wrapper .testimonials-3col .t-item blockquote footer cite,
+.testimonials-3col .t-item blockquote footer .ft-hover-item .ft-item .content-wrapper cite, .ft-hover-item .ft-item .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite,
+.testimonials-3col .t-item .wrapper-404 .ft-hover-item .ft-item .content-wrapper .info-wrapper .info-404 footer cite, .ft-hover-item .ft-item .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite,
+.wrapper-404 .ft-hover-item .ft-item .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .ft-hover-item .ft-item .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite,
+.testimonials-3col .t-item .bg-maintenance .ft-hover-item .ft-item .content-wrapper .content-inner p footer cite, .ft-hover-item .ft-item .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite,
+.bg-maintenance .ft-hover-item .ft-item .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .ft-hover-item .ft-item .content-wrapper .team-3col .t-item .t-info .t-role,
+.team-3col .t-item .t-info .ft-hover-item .ft-item .content-wrapper .t-role, .ft-hover-item .ft-item .content-wrapper .team-4col .t-item .t-info .t-role,
+.team-4col .t-item .t-info .ft-hover-item .ft-item .content-wrapper .t-role, .ft-hover-item .ft-item .content-wrapper .freelancer-about .t-item .t-info .t-role,
+.freelancer-about .t-item .t-info .ft-hover-item .ft-item .content-wrapper .t-role, .ft-hover-item .ft-item .content-wrapper .t-join .t-info .t-role,
+.t-join .t-info .ft-hover-item .ft-item .content-wrapper .t-role, .ft-hover-item .ft-item .content-wrapper .login-2 .bg-overlay .form-wrapper .form-content .cards-header,
+.login-2 .bg-overlay .form-wrapper .form-content .ft-hover-item .ft-item .content-wrapper .cards-header, .ft-hover-item .ft-item .content-wrapper .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .ft-hover-item .ft-item .content-wrapper .sc-lead, .ft-hover-item .ft-item .content-wrapper h5, .ft-hover-item .ft-item .content-wrapper .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .ft-hover-item .ft-item .content-wrapper .ft-heading, .ft-hover-item .ft-item .content-wrapper .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .ft-hover-item .ft-item .content-wrapper .tab-info, .ft-hover-item .ft-item .content-wrapper .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .ft-hover-item .ft-item .content-wrapper .widget-comm-title, .ft-hover-item .ft-item .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .comingsoon .ft-hover-item .ft-item .content-wrapper .content-inner .cs-timer .item .title-timer, .ft-hover-item .ft-item .content-wrapper .shop-layout-options span, .shop-layout-options .ft-hover-item .ft-item .content-wrapper span {
+  margin: 0;
+  padding-bottom: 20px;
+  color: #ececec;
+}
+
+.ft-hover-item .ft-item .content-wrapper p {
+  margin: 0;
+  padding-bottom: 45px;
+  color: #ececec;
+}
+
+.ft-hover-item .ft-item .content-wrapper .ft-button {
+  opacity: 0;
+}
+
+.ft-hover-item .ft-item:hover {
+  background-size: 103%;
+}
+
+.ft-hover-item .ft-item:hover .bg-overlay {
+  background: rgba(17, 17, 17, 0.8);
+}
+
+.ft-hover-item .ft-item:hover .content-wrapper {
+  bottom: 100px;
+}
+
+.ft-hover-item .ft-item:hover .content-wrapper .ft-button {
+  opacity: 1;
+}
+
+.ft-hover-item .ft-1, .ft-hover-item .ft-2 {
+    background: #ccc url("../img/cyj.png");
+    background-size: 100%;
+    background-position: 50%;
+    -webkit-transition: background-size 0.3s;
+    transition: background-size 0.3s;
+    background-repeat: no-repeat;
+}
+
+.ft-hover-item .ft-1 .bg-overlay, .ft-hover-item .ft-2 .bg-overlay {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(17, 17, 17, 0.55);
+  -webkit-transition: background 0.4s;
+          transition: background 0.4s;
+}
+
+/* meet the team box */
+.ft-hover-item .ft-2 {
+  
+  background: url(../img/unf.jpg);
+  background-size: 75%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.ft-hover-item .ft-2 .bg-overlay {
+  background: rgba(17, 17, 17, 0.4);
+}
+
+/* ---- 9.13 Feature Big Images + Text ---- */
+.ft-big-img-left {
+  position: relative;
+}
+
+/* .ft-big-img-left .ft-img-container { */
+  /* margin-bottom: -50px; */
+/* } */
+
+.ft-big-img-left .ft-img-container .ft-img {
+  position: relative;
+  top: -60px;
+  left: -55%;
+}
+
+.ft-big-img-left .ft-content {
+  position: relative;
+  top: 125px;
+}
+
+.ft-big-img-left .ft-content h3, .ft-big-img-left .ft-content .page-title .subheading, .page-title .ft-big-img-left .ft-content .subheading {
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.ft-big-img-left .ft-content .h-alt {
+  margin: 0;
+  padding-bottom: 45px;
+  color: #999;
+}
+
+.ft-big-img-left .ft-content .btn, .ft-big-img-left .ft-content .btn-ghost, .ft-big-img-left .ft-content .btn-ghost-light, .ft-big-img-left .ft-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .ft-big-img-left .ft-content .btn-ghost-light, .ft-big-img-left .ft-content .btn-text, .ft-big-img-left .ft-content .btn-text-light, .ft-big-img-left .ft-content .btn-light, .ft-big-img-left .ft-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .ft-big-img-left .ft-content .btn-ghost, .ft-big-img-left .ft-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .ft-big-img-left .ft-content .btn-light {
+  margin-top: 30px;
+}
+
+.ft-big-img-right {
+  position: relative;
+}
+
+.ft-big-img-right .ft-img-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  overflow: hidden;
+}
+
+.ft-big-img-right .ft-img-container .ft-img {
+  position: relative;
+  right: -35%;
+}
+
+.ft-big-img-right .ft-content {
+  position: relative;
+  top: 225px;
+}
+
+.ft-big-img-right .ft-content h3, .ft-big-img-right .ft-content .page-title .subheading, .page-title .ft-big-img-right .ft-content .subheading {
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.ft-big-img-right .ft-content .h-alt {
+  margin: 0;
+  padding-bottom: 45px;
+  color: #999;
+}
+
+.ft-big-img-right .ft-content .btn, .ft-big-img-right .ft-content .btn-ghost, .ft-big-img-right .ft-content .btn-ghost-light, .ft-big-img-right .ft-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .ft-big-img-right .ft-content .btn-ghost-light, .ft-big-img-right .ft-content .btn-text, .ft-big-img-right .ft-content .btn-text-light, .ft-big-img-right .ft-content .btn-light, .ft-big-img-right .ft-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .ft-big-img-right .ft-content .btn-ghost, .ft-big-img-right .ft-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .ft-big-img-right .ft-content .btn-light {
+  margin-top: 30px;
+}
+
+/* ---- 9.14 Features - Image Left ---- */
+.ft-img-left .ft-content {
+  position: relative;
+  top: 35px;
+}
+
+.ft-img-left .ft-content h3, .ft-img-left .ft-content .page-title .subheading, .page-title .ft-img-left .ft-content .subheading {
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.ft-img-left .ft-content .h-alt {
+  margin: 0;
+  padding-bottom: 45px;
+  color: #999;
+}
+
+.ft-img-left .ft-content .btn, .ft-img-left .ft-content .btn-ghost, .ft-img-left .ft-content .btn-ghost-light, .ft-img-left .ft-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .ft-img-left .ft-content .btn-ghost-light, .ft-img-left .ft-content .btn-text, .ft-img-left .ft-content .btn-text-light, .ft-img-left .ft-content .btn-light, .ft-img-left .ft-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .ft-img-left .ft-content .btn-ghost, .ft-img-left .ft-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .ft-img-left .ft-content .btn-light {
+  margin-top: 30px;
+}
+
+/* ---- 9.15 Tabs ---- */
+.nav-tabs {
+  border-top: 1px solid #c1c1c1;
+  border-bottom: none;
+}
+
+.nav-tabs li {
+  margin-top: -1px;
+  margin-bottom: 0;
+}
+
+.nav-tabs li a {
+  padding: 20px 25px 30px 25px;
+  border-radius: 0;
+  border: none;
+  border-top: 1px solid transparent;
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #999;
+  text-transform: uppercase;
+}
+
+.nav-tabs li a:hover {
+  background: none;
+  border: none;
+  border-top: 1px solid #444444;
+}
+
+.nav-tabs li a:focus {
+  background: none;
+  border: none;
+}
+
+.nav-tabs .active a {
+  border: none !important;
+  border-top: 1px solid #111 !important;
+  color: #111;
+}
+
+
+
+
+/* --------------------------------------------------
+	11.0 Sliders
+-------------------------------------------------- */
+.box {
+  width: 60px;
+  height: 60px;
+  background: #ececec;
+  text-align: center;
+}
+
+.slick-dots {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin-right: 10px;
+  height: 12px;
+  width: 12px;
+  vertical-align: middle;
+  border: 2px solid #ececec;
+  border-radius: 100px;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.slick-dots li button {
+  display: none;
+}
+
+.slick-dots li:hover {
+  background: #ececec;
+  cursor: pointer;
+}
+
+.slick-dots .slick-active {
+  border: 2px solid rgba(17, 17, 17, 0);
+  background: #ececec;
+  height: 12px;
+  width: 12px;
+}
+
+.slider-nav {
+  display: inline-block;
+  position: absolute;
+  margin-top: -50px;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: #111;
+  line-height: 0;
+  color: #ececec;
+  -webkit-transition: background 0.3s;
+          transition: background 0.3s;
+}
+
+.slider-nav i {
+  font-size: 15px;
+}
+
+.slider-nav:hover {
+  background: #373737;
+}
+
+.slider-nav:focus {
+  outline: none;
+}
+
+.sl-next {
+  right: 20px;
+}
+
+.sl-prev {
+  left: 20px;
+}
+
+
+
+/* --------------------------------------------------
+	14.0 Team Blocks
+-------------------------------------------------- */
+/* ---- 14.1 Team - 3 Columns ---- */
+.team-3col .t-item, .team-4col .t-item, .freelancer-about .t-item {
+  display: block;
+  border-top: 1px solid #f8f8f8;
+  background: #fff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.team-3col .t-item:hover, .team-4col .t-item:hover, .freelancer-about .t-item:hover {
+  -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+.team-3col .t-item:hover .t-image .t-description, .team-4col .t-item:hover .t-image .t-description, .freelancer-about .t-item:hover .t-image .t-description {
+  bottom: 0;
+}
+
+.team-3col .t-item:hover .t-image .t-description .content-wrapper, .team-4col .t-item:hover .t-image .t-description .content-wrapper, .freelancer-about .t-item:hover .t-image .t-description .content-wrapper {
+  padding-top: 0;
+  border-bottom: 1px solid #ebebec;
+  opacity: 1;
+}
+
+.team-3col .t-item .t-image, .team-4col .t-item .t-image, .freelancer-about .t-item .t-image {
+  position: relative;
+  height: 375px;
+  overflow: hidden;
+}
+
+.team-3col .t-item .t-image .t-description, .team-4col .t-item .t-image .t-description, .freelancer-about .t-item .t-image .t-description {
+  display: block;
+  position: absolute;
+  padding: 100px 30px 30px 30px;
+  bottom: -100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: white;
+  -webkit-transition: bottom 0.4s;
+          transition: bottom 0.4s;
+}
+
+.team-3col .t-item .t-image .t-description .content-wrapper, .team-4col .t-item .t-image .t-description .content-wrapper, .freelancer-about .t-item .t-image .t-description .content-wrapper {
+  opacity: 0;
+  padding-top: 100px;
+  padding-bottom: 73px;
+  border-bottom: 1px solid rgba(235, 235, 236, 0);
+  -webkit-transition: opacity 1s, padding-top 0.8s, border 1.5s ease-out;
+          transition: opacity 1s, padding-top 0.8s, border 1.5s ease-out;
+}
+
+.team-3col .t-item .t-image .t-description .content-wrapper h4, .team-4col .t-item .t-image .t-description .content-wrapper h4, .freelancer-about .t-item .t-image .t-description .content-wrapper h4, .team-3col .t-item .t-image .t-description .content-wrapper .ft-tabs .tabs-list li a .tab-group .tab-heading, .ft-tabs .tabs-list li a .tab-group .team-3col .t-item .t-image .t-description .content-wrapper .tab-heading, .team-4col .t-item .t-image .t-description .content-wrapper .ft-tabs .tabs-list li a .tab-group .tab-heading, .ft-tabs .tabs-list li a .tab-group .team-4col .t-item .t-image .t-description .content-wrapper .tab-heading, .freelancer-about .t-item .t-image .t-description .content-wrapper .ft-tabs .tabs-list li a .tab-group .tab-heading, .ft-tabs .tabs-list li a .tab-group .freelancer-about .t-item .t-image .t-description .content-wrapper .tab-heading, .team-3col .testimonials-3col .t-item .t-image .t-description .content-wrapper blockquote footer cite, .testimonials-3col .team-3col .t-item .t-image .t-description .content-wrapper blockquote footer cite, .team-3col .testimonials-3col .t-item blockquote footer .t-image .t-description .content-wrapper cite, .testimonials-3col .team-3col .t-item blockquote footer .t-image .t-description .content-wrapper cite, .team-4col .testimonials-3col .t-item .t-image .t-description .content-wrapper blockquote footer cite, .testimonials-3col .team-4col .t-item .t-image .t-description .content-wrapper blockquote footer cite, .team-4col .testimonials-3col .t-item blockquote footer .t-image .t-description .content-wrapper cite, .testimonials-3col .team-4col .t-item blockquote footer .t-image .t-description .content-wrapper cite, .freelancer-about .testimonials-3col .t-item .t-image .t-description .content-wrapper blockquote footer cite, .testimonials-3col .freelancer-about .t-item .t-image .t-description .content-wrapper blockquote footer cite, .freelancer-about .testimonials-3col .t-item blockquote footer .t-image .t-description .content-wrapper cite, .testimonials-3col .freelancer-about .t-item blockquote footer .t-image .t-description .content-wrapper cite, .team-3col .testimonials-3col .t-item .t-image .t-description .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .testimonials-3col .team-3col .t-item .t-image .t-description .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .team-3col .testimonials-3col .t-item .wrapper-404 .t-image .t-description .content-wrapper .info-wrapper .info-404 footer cite, .testimonials-3col .team-3col .t-item .wrapper-404 .t-image .t-description .content-wrapper .info-wrapper .info-404 footer cite, .team-4col .testimonials-3col .t-item .t-image .t-description .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .testimonials-3col .team-4col .t-item .t-image .t-description .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .team-4col .testimonials-3col .t-item .wrapper-404 .t-image .t-description .content-wrapper .info-wrapper .info-404 footer cite, .testimonials-3col .team-4col .t-item .wrapper-404 .t-image .t-description .content-wrapper .info-wrapper .info-404 footer cite, .freelancer-about .testimonials-3col .t-item .t-image .t-description .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .testimonials-3col .freelancer-about .t-item .t-image .t-description .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .freelancer-about .testimonials-3col .t-item .wrapper-404 .t-image .t-description .content-wrapper .info-wrapper .info-404 footer cite, .testimonials-3col .freelancer-about .t-item .wrapper-404 .t-image .t-description .content-wrapper .info-wrapper .info-404 footer cite, .team-3col .t-item .t-image .t-description .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .wrapper-404 .team-3col .t-item .t-image .t-description .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .team-4col .t-item .t-image .t-description .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .wrapper-404 .team-4col .t-item .t-image .t-description .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .freelancer-about .t-item .t-image .t-description .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .wrapper-404 .freelancer-about .t-item .t-image .t-description .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .team-3col .testimonials-3col .t-item .t-image .t-description .bg-maintenance .content-wrapper .content-inner p footer cite, .testimonials-3col .team-3col .t-item .t-image .t-description .bg-maintenance .content-wrapper .content-inner p footer cite, .team-3col .testimonials-3col .t-item .bg-maintenance .t-image .t-description .content-wrapper .content-inner p footer cite, .testimonials-3col .team-3col .t-item .bg-maintenance .t-image .t-description .content-wrapper .content-inner p footer cite, .team-4col .testimonials-3col .t-item .t-image .t-description .bg-maintenance .content-wrapper .content-inner p footer cite, .testimonials-3col .team-4col .t-item .t-image .t-description .bg-maintenance .content-wrapper .content-inner p footer cite, .team-4col .testimonials-3col .t-item .bg-maintenance .t-image .t-description .content-wrapper .content-inner p footer cite, .testimonials-3col .team-4col .t-item .bg-maintenance .t-image .t-description .content-wrapper .content-inner p footer cite, .freelancer-about .testimonials-3col .t-item .t-image .t-description .bg-maintenance .content-wrapper .content-inner p footer cite, .testimonials-3col .freelancer-about .t-item .t-image .t-description .bg-maintenance .content-wrapper .content-inner p footer cite, .freelancer-about .testimonials-3col .t-item .bg-maintenance .t-image .t-description .content-wrapper .content-inner p footer cite, .testimonials-3col .freelancer-about .t-item .bg-maintenance .t-image .t-description .content-wrapper .content-inner p footer cite, .team-3col .t-item .t-image .t-description .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .bg-maintenance .team-3col .t-item .t-image .t-description .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .team-4col .t-item .t-image .t-description .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .bg-maintenance .team-4col .t-item .t-image .t-description .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .freelancer-about .t-item .t-image .t-description .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .bg-maintenance .freelancer-about .t-item .t-image .t-description .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .team-3col .t-item .t-image .t-description .content-wrapper .t-info .t-role, .team-3col .t-item .t-info .t-image .t-description .content-wrapper .t-role, .team-4col .t-item .t-image .t-description .content-wrapper .t-info .t-role, .team-4col .t-item .t-info .t-image .t-description .content-wrapper .t-role, .freelancer-about .t-item .t-image .t-description .content-wrapper .t-info .t-role, .freelancer-about .t-item .t-info .t-image .t-description .content-wrapper .t-role, .t-join .t-info .team-3col .t-item .t-image .t-description .content-wrapper .t-role, .t-join .t-info .team-4col .t-item .t-image .t-description .content-wrapper .t-role, .t-join .t-info .freelancer-about .t-item .t-image .t-description .content-wrapper .t-role, .team-3col .t-item .t-image .t-description .content-wrapper .login-2 .bg-overlay .form-wrapper .form-content .cards-header, .login-2 .bg-overlay .form-wrapper .form-content .team-3col .t-item .t-image .t-description .content-wrapper .cards-header, .team-4col .t-item .t-image .t-description .content-wrapper .login-2 .bg-overlay .form-wrapper .form-content .cards-header, .login-2 .bg-overlay .form-wrapper .form-content .team-4col .t-item .t-image .t-description .content-wrapper .cards-header, .freelancer-about .t-item .t-image .t-description .content-wrapper .login-2 .bg-overlay .form-wrapper .form-content .cards-header, .login-2 .bg-overlay .form-wrapper .form-content .freelancer-about .t-item .t-image .t-description .content-wrapper .cards-header, .team-3col .t-item .t-image .t-description .content-wrapper .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead, .login-2 .bg-overlay .form-wrapper .social-signup .social-card .team-3col .t-item .t-image .t-description .content-wrapper .sc-lead, .team-4col .t-item .t-image .t-description .content-wrapper .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead, .login-2 .bg-overlay .form-wrapper .social-signup .social-card .team-4col .t-item .t-image .t-description .content-wrapper .sc-lead, .freelancer-about .t-item .t-image .t-description .content-wrapper .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead, .login-2 .bg-overlay .form-wrapper .social-signup .social-card .freelancer-about .t-item .t-image .t-description .content-wrapper .sc-lead {
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+.team-3col .t-item .t-info, .team-4col .t-item .t-info, .freelancer-about .t-item .t-info {
+  padding: 25px 30px;
+}
+
+.team-3col .t-item .t-info h4, .team-4col .t-item .t-info h4, .freelancer-about .t-item .t-info h4, .team-3col .t-item .t-info .ft-tabs .tabs-list li a .tab-group .tab-heading, .ft-tabs .tabs-list li a .tab-group .team-3col .t-item .t-info .tab-heading, .team-4col .t-item .t-info .ft-tabs .tabs-list li a .tab-group .tab-heading, .ft-tabs .tabs-list li a .tab-group .team-4col .t-item .t-info .tab-heading, .freelancer-about .t-item .t-info .ft-tabs .tabs-list li a .tab-group .tab-heading, .ft-tabs .tabs-list li a .tab-group .freelancer-about .t-item .t-info .tab-heading, .team-3col .testimonials-3col .t-item .t-info blockquote footer cite, .testimonials-3col .team-3col .t-item .t-info blockquote footer cite, .team-3col .testimonials-3col .t-item blockquote footer .t-info cite, .testimonials-3col .team-3col .t-item blockquote footer .t-info cite, .team-4col .testimonials-3col .t-item .t-info blockquote footer cite, .testimonials-3col .team-4col .t-item .t-info blockquote footer cite, .team-4col .testimonials-3col .t-item blockquote footer .t-info cite, .testimonials-3col .team-4col .t-item blockquote footer .t-info cite, .freelancer-about .testimonials-3col .t-item .t-info blockquote footer cite, .testimonials-3col .freelancer-about .t-item .t-info blockquote footer cite, .freelancer-about .testimonials-3col .t-item blockquote footer .t-info cite, .testimonials-3col .freelancer-about .t-item blockquote footer .t-info cite, .team-3col .testimonials-3col .t-item .t-info .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .testimonials-3col .team-3col .t-item .t-info .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .team-3col .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .t-info cite, .testimonials-3col .team-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .t-info cite, .team-4col .testimonials-3col .t-item .t-info .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .testimonials-3col .team-4col .t-item .t-info .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .team-4col .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .t-info cite, .testimonials-3col .team-4col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .t-info cite, .freelancer-about .testimonials-3col .t-item .t-info .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .testimonials-3col .freelancer-about .t-item .t-info .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .freelancer-about .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .t-info cite, .testimonials-3col .freelancer-about .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .t-info cite, .team-3col .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .t-info .info-404 footer cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .team-3col .t-item .t-info .info-404 footer cite, .team-3col .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .t-info cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .team-3col .t-item .info-404 footer .t-info cite, .team-4col .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .t-info .info-404 footer cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .team-4col .t-item .t-info .info-404 footer cite, .team-4col .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .t-info cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .team-4col .t-item .info-404 footer .t-info cite, .freelancer-about .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .t-info .info-404 footer cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .freelancer-about .t-item .t-info .info-404 footer cite, .freelancer-about .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .t-info cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .freelancer-about .t-item .info-404 footer .t-info cite, .team-3col .testimonials-3col .t-item .t-info .bg-maintenance .content-wrapper .content-inner p footer cite, .testimonials-3col .team-3col .t-item .t-info .bg-maintenance .content-wrapper .content-inner p footer cite, .team-3col .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .t-info cite, .testimonials-3col .team-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .t-info cite, .team-4col .testimonials-3col .t-item .t-info .bg-maintenance .content-wrapper .content-inner p footer cite, .testimonials-3col .team-4col .t-item .t-info .bg-maintenance .content-wrapper .content-inner p footer cite, .team-4col .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .t-info cite, .testimonials-3col .team-4col .t-item .bg-maintenance .content-wrapper .content-inner p footer .t-info cite, .freelancer-about .testimonials-3col .t-item .t-info .bg-maintenance .content-wrapper .content-inner p footer cite, .testimonials-3col .freelancer-about .t-item .t-info .bg-maintenance .content-wrapper .content-inner p footer cite, .freelancer-about .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .t-info cite, .testimonials-3col .freelancer-about .t-item .bg-maintenance .content-wrapper .content-inner p footer .t-info cite, .team-3col .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item .t-info p footer cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .team-3col .t-item .t-info p footer cite, .team-3col .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .t-info cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .team-3col .t-item p footer .t-info cite, .team-4col .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item .t-info p footer cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .team-4col .t-item .t-info p footer cite, .team-4col .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .t-info cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .team-4col .t-item p footer .t-info cite, .freelancer-about .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item .t-info p footer cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .freelancer-about .t-item .t-info p footer cite, .freelancer-about .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .t-info cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .freelancer-about .t-item p footer .t-info cite, .team-3col .t-item .t-info .t-role, .team-4col .t-item .t-info .t-role, .freelancer-about .t-item .t-info .t-role, .team-3col .t-item .t-info .login-2 .bg-overlay .form-wrapper .form-content .cards-header, .login-2 .bg-overlay .form-wrapper .form-content .team-3col .t-item .t-info .cards-header, .team-4col .t-item .t-info .login-2 .bg-overlay .form-wrapper .form-content .cards-header, .login-2 .bg-overlay .form-wrapper .form-content .team-4col .t-item .t-info .cards-header, .freelancer-about .t-item .t-info .login-2 .bg-overlay .form-wrapper .form-content .cards-header, .login-2 .bg-overlay .form-wrapper .form-content .freelancer-about .t-item .t-info .cards-header, .team-3col .t-item .t-info .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead, .login-2 .bg-overlay .form-wrapper .social-signup .social-card .team-3col .t-item .t-info .sc-lead, .team-4col .t-item .t-info .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead, .login-2 .bg-overlay .form-wrapper .social-signup .social-card .team-4col .t-item .t-info .sc-lead, .freelancer-about .t-item .t-info .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead, .login-2 .bg-overlay .form-wrapper .social-signup .social-card .freelancer-about .t-item .t-info .sc-lead {
+  margin: 0;
+}
+
+.team-3col .t-item .t-info .t-name, .team-4col .t-item .t-info .t-name, .freelancer-about .t-item .t-info .t-name {
+  font-size: 16px;
+}
+
+.team-3col .t-item .t-info .t-role, .team-4col .t-item .t-info .t-role, .freelancer-about .t-item .t-info .t-role {
+  display: block;
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 13px;
+  letter-spacing: 3.5px;
+  color: #999;
+}
+
+.team-3col .t-item .t-info .social-links, .team-4col .t-item .t-info .social-links, .freelancer-about .t-item .t-info .social-links {
+  margin: 0;
+  padding: 15px 0 0 0;
+  list-style: none;
+}
+
+.team-3col .t-item .t-info .social-links li, .team-4col .t-item .t-info .social-links li, .freelancer-about .t-item .t-info .social-links li {
+  display: inline-block;
+}
+
+.team-3col .t-item .t-info .social-links li a, .team-4col .t-item .t-info .social-links li a {
+  display: block;
+  padding-right: 12px;
+  font-size: 21px;
+  color: black;
+}
+
+/* ---- 14.2 Team - 4 Columns ---- */
+.team-4col .t-item .t-image {
+  height: 325px;
+}
+
+.team-4col .t-item .t-image .t-description {
+  padding: 50px 30px 30px 30px;
+  bottom: -100%;
+}
+
+.team-4col .t-item .t-info {
+  padding: 15px 30px;
+}
+
+.team-4col .t-item .t-info .t-name {
+  font-size: 14px;
+}
+
+.team-4col .t-item .t-info .t-role {
+  font-size: 12px;
+}
+
+.team-4col .t-item .t-info .social-links {
+  padding-top: 7px;
+}
+
+.team-4col .t-item .t-info .social-links li a {
+  padding-right: 10px;
+  font-size: 19px;
+}
+
+.t-join {
+  display: block;
+  background: #fff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.t-join:hover {
+  -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+.t-join .t-image .bg-icon {
+  position: absolute;
+  right: -27%;
+  top: 60px;
+  font-size: 320px;
+  color: rgba(204, 204, 204, 0.15);
+}
+
+.t-join .t-image .t-description {
+  padding: 40px 30px;
+}
+
+.t-join .t-info {
+  padding: 15px 30px;
+}
+
+.t-join .t-info .t-name {
+  margin: 0;
+  font-size: 14px;
+}
+
+

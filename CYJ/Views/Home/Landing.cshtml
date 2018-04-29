@@ -1,0 +1,217 @@
+﻿@{
+
+    Layout = null;
+}
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Infinite 4 - Landing Page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="@Url.Content("~/Content/landing/")css/bootstrap.min.css">
+
+
+    <!-- Definity CSS -->
+    <link rel="stylesheet" href="@Url.Content("~/Content/landing/")css/main.css">
+
+
+
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MH7TSF"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MH7TSF');</script>
+    <!-- End Google Tag Manager -->
+    <!-- ========== Featured Projects ========== -->
+
+    <div class="gray-bg">
+        <section id="about" class="container section team-4col">
+            <div class="row">
+
+                <header class="sec-heading">
+                    <h2>Welcome to our Landing Page</h2>
+                    <span class="subheading">Pick to a side to explore</span>
+                </header>
+
+                <div id="portfolio" class="container-fluid ft-hover-item">
+                    <div class="row">
+
+                        <!-- Item 1 -->
+                        <div class="ft-item ft-1 col-md-6">
+                            <div class="bg-overlay">
+
+                                <div class="content-wrapper">
+                                    <a href="@Url.Action("Index", "Home")"><h3>View Impact Dashboard</h3></a>
+                                    <p>Data Visualization Tool,<br> tailored to displays progress over time towards their goals</p>
+                                    <a href="@Url.Action("Index", "Home")" class="btn-ghost btn-ghost-light ft-button">View Dashboard</a>
+                                </div>
+
+                            </div><!-- / .bg-overlay -->
+                        </div><!-- / .ft-item -->
+                        <!-- Item 2 -->
+                        <div class="ft-item ft-2 col-md-6">
+                            <div class="bg-overlay">
+
+                                <div class="content-wrapper">
+                                    <a href="pages/portfolio/portfolio-single-1.html"><h3>Meet the Team</h3></a>
+                                    <p>Talented individuals,<br> who worked hard to create an innovated dashboard</p>
+                                    <a href="#page-team" class="btn-ghost btn-ghost-light ft-button">View Team Members</a>
+                                </div>
+
+                            </div><!-- / .bg-overlay -->
+                        </div><!-- / .ft-item -->
+
+                    </div><!-- / .row -->
+                </div><!-- / .container-fluid -->
+
+            </div><!-- / .row -->
+        </section><!-- / .contianer -->
+    </div><!-- / .gray-bg -->
+    <!-- ========== Team ========== -->
+
+    <div id="page-team" class="gray-bg">
+        <section id="about" class="container section team-4col">
+            <div class="row">
+
+                <header class="sec-heading">
+                    <h2>Meet the team</h2>
+                    <span class="subheading">Talented Creative Professionals</span>
+                </header>
+
+
+                <!-- Member 1 -->
+                <div class="col-lg-3 col-md-6 mb-sm-50">
+                    <div class="t-item wow fadeIn" data-wow-duration="2s">
+
+                        <!-- Image -->
+                        <div class="t-image">
+                            <img src="@Url.Content("~/Content/landing/")img/team1.jpg" alt="Team Member" class="img-responsive">
+                            <div class="t-description">
+                                <div class="content-wrapper">
+                                    <h4 class="h-alt">Hello!</h4>
+                                    <p>Worked on the Login Authenication, Roles, Implemented Features, External Affairs Graphs, Revenue Graphs</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Info -->
+                        <div class="t-info">
+                            <h4 class="t-name">Dorothy Charpentier</h4>
+
+                            <span class="t-role">Signaling Technolgist at Alstom</span>
+                        </div>
+
+                    </div><!-- / .t-item -->
+                </div><!-- / .col-lg-3 -->
+                <!-- Member 2 -->
+                <div class="col-lg-3 col-md-6 mb-sm-50">
+                    <div class="t-item wow fadeIn" data-wow-duration="2s">
+
+                        <!-- Image -->
+                        <div class="t-image">
+                            <img src="@Url.Content("~/Content/landing/")img/team-2Eric.jpg" alt="Team Member" class="img-responsive">
+                            <div class="t-description">
+                                <div class="content-wrapper">
+                                    <h4 class="h-alt">Hello!</h4>
+                                    <p>Worked on the Adding Items, Adding Goals, Implemented Features, External Affair Graphs</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Info -->
+                        <div class="t-info">
+                            <h4 class="t-name">Eric Mwaura</h4>
+                            <br />
+                            <span class="t-role">UNF Student</span>
+                            <br />
+                        </div>
+
+                    </div><!-- / .t-item -->
+                </div><!-- / .col-lg-3 -->
+                <!-- Member 3 -->
+                <div class="col-lg-3 col-md-6 mb-sm-50">
+                    <div class="t-item wow fadeIn" data-wow-duration="2s">
+
+                        <!-- Image -->
+                        <div class="t-image">
+                            <img src="@Url.Content("~/Content/landing/")img/team-3Wafaa.jpg" alt="Team Member" class="img-responsive">
+                            <div class="t-description">
+                                <div class="content-wrapper">
+                                    <h4 class="h-alt">Hello!</h4>
+                                    <p> Modifying Items, Modifying Goals, Implemented Features, Design WebSites Functionality</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Info -->
+                        <div class="t-info">
+                            <h4 class="t-name">Wafaa Safar</h4>
+                            <span class="t-role">Associate Developer at Florida Blue</span>
+                        </div>
+
+                    </div><!-- / .t-item -->
+                </div><!-- / .col-lg-3 -->
+                <!-- Member 4 -->
+                <div class="col-lg-3 col-md-6 mb-sm-50">
+                    <div class="t-item wow fadeIn" data-wow-duration="2s" data-wow-delay=".3s">
+
+                        <!-- Image -->
+                        <div class="t-image">
+                            <img src="@Url.Content("~/Content/landing/")img/team-4Chloe.jpg" alt="Team Member" class="img-responsive">
+                            <div class="t-description">
+                                <div class="content-wrapper">
+                                    <h4 class="h-alt">Hello!</h4>
+                                    <p>Designed the Dashboard, UI, UX, All Graphs, </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Info -->
+                        <div class="t-info">
+                            <h4 class="t-name">Chloe Cruz</h4>
+                            <span class="t-role">IT Intern at Regency Center</span>
+                            <br />
+                        </div>
+
+                    </div><!-- / .t-item -->
+                </div><!-- / .col-lg-3 -->
+
+            </div><!-- / .row -->
+        </section><!-- / .contianer -->
+    </div><!-- / .gray-bg -->
+    <!-- Container -->
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <small>&copy; Copyright 2018 Infinite 4
+                </div>
+
+                <div class="col-md-6">
+                    <small><a href="#page-top" class="pull-right to-the-top">To the top<i class="fa fa-angle-up"></i></a></small>
+                </div>
+
+            </div><!-- / .row -->
+        </div><!-- / .container -->
+    </div><!-- / .copyright -->
+    </footer><!-- / .footer-contact -->
+    <!-- ========== Scripts ========== -->
+
+    <script src="@Url.Content("~/Content/landing/")js/jquery-2.1.4.min.js" type="text/javascript"></script>
+
+</body>
+</html>

@@ -1,0 +1,276 @@
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\ApplicationInsights.config
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\csc.exe
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\csc.exe.config
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\csc.rsp
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\csi.exe
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\csi.rsp
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\System.AppContext.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\vbc.exe
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\vbc.exe.config
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\vbc.rsp
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\VBCSCompiler.exe
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\CYJ.dll.config
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\CYJ.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\CYJ.pdb
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Antlr3.Runtime.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\DotNet.Highcharts.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\EntityFramework.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\EntityFramework.SqlServer.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Highcharts.Web.Mvc.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Highstock.Web.Mvc.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.AI.Web.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.ApplicationInsights.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.Owin.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.Owin.Security.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.Owin.Security.OpenIdConnect.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Newtonsoft.Json.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Owin.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\System.Linq.Dynamic.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\System.Web.Helpers.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\System.Web.Mvc.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\System.Web.Optimization.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\System.Web.Razor.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\System.Web.WebPages.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\System.Web.WebPages.Razor.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\WebGrease.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\EntityFramework.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\EntityFramework.SqlServer.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Highcharts.Web.Mvc.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\System.Web.Helpers.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\System.Web.Mvc.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\System.Web.Optimization.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\System.Web.Razor.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\System.Web.WebPages.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\System.Web.WebPages.Razor.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Antlr3.Runtime.pdb
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Newtonsoft.Json.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.Owin.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.Owin.Security.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.Owin.Security.OpenIdConnect.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.ApplicationInsights.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\bin\Microsoft.AI.Web.xml
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\obj\Debug\CYJ.csproj.CoreCompileInputs.cache
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\obj\Debug\CYJ.dll
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\obj\Debug\CYJ.pdb
+C:\Users\DCharpe\Source\Repos\Symposium2018\CYJ\obj\Debug\CYJ.csprojResolveAssemblyReference.cache
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\ApplicationInsights.config
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\csc.exe
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\csc.exe.config
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\csc.rsp
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\csi.exe
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\csi.rsp
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\System.AppContext.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\vbc.exe
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\vbc.exe.config
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\vbc.rsp
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\VBCSCompiler.exe
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\CYJ.dll.config
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\CYJ.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\CYJ.pdb
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Antlr3.Runtime.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\DotNet.Highcharts.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\EntityFramework.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\EntityFramework.SqlServer.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Highcharts.Web.Mvc.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Highstock.Web.Mvc.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.Web.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.ApplicationInsights.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.Security.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.Security.OpenIdConnect.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Newtonsoft.Json.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Owin.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\System.Linq.Dynamic.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\System.Web.Helpers.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\System.Web.Mvc.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\System.Web.Optimization.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\System.Web.Razor.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\System.Web.WebPages.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\System.Web.WebPages.Razor.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\WebGrease.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\EntityFramework.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\EntityFramework.SqlServer.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Highcharts.Web.Mvc.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\System.Web.Helpers.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\System.Web.Mvc.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\System.Web.Optimization.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\System.Web.Razor.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\System.Web.WebPages.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\System.Web.WebPages.Razor.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Antlr3.Runtime.pdb
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Newtonsoft.Json.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.Security.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.Security.OpenIdConnect.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.ApplicationInsights.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.Web.xml
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\obj\Debug\CYJ.csprojResolveAssemblyReference.cache
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\obj\Debug\CYJ.csproj.CoreCompileInputs.cache
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\obj\Debug\CYJ.dll
+C:\Users\DCharpe\Google Drive\Spring 2018\SP II\Symposium2018\Symposium2018\CYJ\obj\Debug\CYJ.pdb
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\obj\Debug\CYJ.csproj.CoreCompileInputs.cache
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\obj\Debug\CYJ.csprojResolveAssemblyReference.cache
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\ApplicationInsights.config
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\csc.exe
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\csc.exe.config
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\csc.rsp
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\csi.exe
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\csi.rsp
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\System.AppContext.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\vbc.exe
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\vbc.exe.config
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\vbc.rsp
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\VBCSCompiler.exe
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\CYJ.dll.config
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\CYJ.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\CYJ.pdb
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Antlr3.Runtime.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\DotNet.Highcharts.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\EntityFramework.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\EntityFramework.SqlServer.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Highcharts.Web.Mvc.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Highstock.Web.Mvc.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.Web.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.ApplicationInsights.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.Security.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.Security.OpenIdConnect.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Newtonsoft.Json.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Owin.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\System.Linq.Dynamic.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\System.Web.Helpers.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\System.Web.Mvc.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\System.Web.Optimization.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\System.Web.Razor.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\System.Web.WebPages.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\System.Web.WebPages.Razor.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\WebGrease.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\EntityFramework.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\EntityFramework.SqlServer.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Highcharts.Web.Mvc.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\System.Web.Helpers.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\System.Web.Mvc.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\System.Web.Optimization.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\System.Web.Razor.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\System.Web.WebPages.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\System.Web.WebPages.Razor.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Antlr3.Runtime.pdb
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Newtonsoft.Json.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.Security.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.Owin.Security.OpenIdConnect.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.ApplicationInsights.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\bin\Microsoft.AI.Web.xml
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\obj\Debug\CYJ.dll
+C:\Users\DCharpe\Desktop\Symposium2018\Symposium2018\CYJ\obj\Debug\CYJ.pdb

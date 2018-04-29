@@ -1,0 +1,98 @@
+﻿@model IEnumerable<CYJ.Models.ABOUT>
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_mytemplate.cshtml";
+}
+
+
+    <div class="content">
+        <div class="container-fluid">
+            <div row>
+                <div class="alert alert-info" style="BACKGROUND-COLOR:#3ac2cf">
+                    <span>Welcome to the CYJ dashboard!</span>
+                </div>
+                <div>
+                    <div>
+                <!--About-->
+                <div class="card-content">
+                    <div class="tab-content">
+                        <div class="tab-pane" id="settings">
+                            <table class="table">
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.aboutHeader)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.aboutBody)
+                                        </td>
+                                    </tr>
+                                }
+                            </table>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header" style="BACKGROUND-COLOR:#BCC65C">
+                                <h4 class="title">ABOUT THE DASHBOARD</h4>
+                            </div>
+
+                            <div class="card-content">
+                                <div class="row">
+
+                                    <table class="table">
+                                        @foreach (var item in Model)
+                                        {
+                                            <tr>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => item.aboutHeader)
+                                                </td>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => item.aboutBody)
+                                                </td>
+                                                
+                                            </tr>
+                                        }
+                                        
+                                    </table>
+                                    <hr />
+                                </div>
+                            </div>
+                            <br />
+                            <br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Links-->
+            <div class="row">
+                <div class="col-md-6">
+
+                    <div class="card">
+                        <div class="card-header" style="BACKGROUND-COLOR:#BCC65C">
+                            <h4 class="title">CONTENT LINKS</h4>
+                        </div>
+                        <ul style="font-size:20px">
+                            <li class="margin" color:black>@Html.ActionLink("Service Delivery", "Index", "Home")</li>
+                            <li class="margin" color:black>@Html.ActionLink("Corps Member Experience", "Index", "Home")</li>
+                            <li class="margin" color:black>@Html.ActionLink("External Affairs", "Index", "Home")</li>
+                            <li class="margin" color:black>@Html.ActionLink("Revenue", "Index", "Home")</li>
+                            <li class="margin" color:black>@Html.ActionLink("OPEX", "Index", "Home")</li>
+                            <li class="margin" color:black>@Html.ActionLink("RAD", "Index", "Home")</li>
+                        </ul>
+
+                    </div>
+                    <br />
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+   
+

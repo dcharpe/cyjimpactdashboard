@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="cyjdatabaseModelStoreContainer" CdmEntityContainer="cyjdatabaseEntities">
+    <EntitySetMapping Name="ABOUTs">
+      <EntityTypeMapping TypeName="cyjdatabaseModel.ABOUT">
+        <MappingFragment StoreEntitySet="ABOUT">
+          <ScalarProperty Name="aboutID" ColumnName="aboutID" />
+          <ScalarProperty Name="aboutHeader" ColumnName="aboutHeader" />
+          <ScalarProperty Name="aboutBody" ColumnName="aboutBody" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CALENDARs">
+      <EntityTypeMapping TypeName="cyjdatabaseModel.CALENDAR">
+        <MappingFragment StoreEntitySet="CALENDAR">
+          <ScalarProperty Name="eventID" ColumnName="eventID" />
+          <ScalarProperty Name="eventHeader" ColumnName="eventHeader" />
+          <ScalarProperty Name="eventDescription" ColumnName="eventDescription" />
+          <ScalarProperty Name="eventStart" ColumnName="eventStart" />
+          <ScalarProperty Name="eventEnd" ColumnName="eventEnd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CATEGORIES">
+      <EntityTypeMapping TypeName="cyjdatabaseModel.CATEGORy">
+        <MappingFragment StoreEntitySet="CATEGORIES">
+          <ScalarProperty Name="categoryID" ColumnName="categoryID" />
+          <ScalarProperty Name="categoryName" ColumnName="categoryName" />
+          <ScalarProperty Name="workstreamID" ColumnName="workstreamID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHARTS">
+      <EntityTypeMapping TypeName="cyjdatabaseModel.CHART">
+        <MappingFragment StoreEntitySet="CHARTS">
+          <ScalarProperty Name="chartID" ColumnName="chartID" />
+          <ScalarProperty Name="chartName" ColumnName="chartName" />
+          <ScalarProperty Name="Xaxis" ColumnName="Xaxis" />
+          <ScalarProperty Name="Yaxis" ColumnName="Yaxis" />
+          <ScalarProperty Name="teamID" ColumnName="teamID" />
+          <ScalarProperty Name="workstreamID" ColumnName="workstreamID" />
+          <ScalarProperty Name="categoryID" ColumnName="categoryID" />
+          <ScalarProperty Name="subcategoryID" ColumnName="subcategoryID" />
+          <ScalarProperty Name="fiscalYearID" ColumnName="fiscalYearID" />
+          <ScalarProperty Name="quarteroptionID" ColumnName="quarteroptionID" />
+          <ScalarProperty Name="goalActualID" ColumnName="goalActualID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FISCALYEARS">
+      <EntityTypeMapping TypeName="cyjdatabaseModel.FISCALYEAR">
+        <MappingFragment StoreEntitySet="FISCALYEARS">
+          <ScalarProperty Name="fiscalYearID" ColumnName="fiscalYearID" />
+          <ScalarProperty Name="fiscalYear1" ColumnName="fiscalYear" />
+          <ScalarProperty Name="subcategoryID" ColumnName="subcategoryID" />
+          <ScalarProperty Name="quarteroptionID" ColumnName="quarteroptionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GOALACTUALS">
+      <EntityTypeMapping TypeName="cyjdatabaseModel.GOALACTUAL">
+        <MappingFragment StoreEntitySet="GOALACTUALS">
+          <ScalarProperty Name="goalActualID" ColumnName="goalActualID" />
+          <ScalarProperty Name="goalValue" ColumnName="goalValue" />
+          <ScalarProperty Name="actualGoal" ColumnName="actualGoal" />
+          <ScalarProperty Name="teamID" ColumnName="teamID" />
+          <ScalarProperty Name="workstreamID" ColumnName="workstreamID" />
+          <ScalarProperty Name="categoryID" ColumnName="categoryID" />
+          <ScalarProperty Name="subcategoryID" ColumnName="subcategoryID" />
+          <ScalarProperty Name="fiscalYearID" ColumnName="fiscalYearID" />
+          <ScalarProperty Name="quarteroptionID" ColumnName="quarteroptionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QUARTERLYUPDATEs">
+      <EntityTypeMapping TypeName="cyjdatabaseModel.QUARTERLYUPDATE">
+        <MappingFragment StoreEntitySet="QUARTERLYUPDATE">
+          <ScalarProperty Name="updateID" ColumnName="updateID" />
+          <ScalarProperty Name="updateHeader" ColumnName="updateHeader" />
+          <ScalarProperty Name="updateBody" ColumnName="updateBody" />
+          <ScalarProperty Name="updateDate" ColumnName="updateDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QUARTEROPTIONS">
+      <EntityTypeMapping TypeName="cyjdatabaseModel.QUARTEROPTION">
+        <MappingFragment StoreEntitySet="QUARTEROPTIONS">
+          <ScalarProperty Name="quarteroptionID" ColumnName="quarteroptionID" />
+          <ScalarProperty Name="quarteroptionName" ColumnName="quarteroptionName" />
+          <ScalarProperty Name="subcategoryID" ColumnName="subcategoryID" />
+          <ScalarProperty Name="fiscalYearID" ColumnName="fiscalYearID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SUBCATEGORIES">
+      <EntityTypeMapping TypeName="cyjdatabaseModel.SUBCATEGORy">
+        <MappingFragment StoreEntitySet="SUBCATEGORIES">
+          <ScalarProperty Name="subcategoryID" ColumnName="subcategoryID" />
+          <ScalarProperty Name="subcategoryName" ColumnName="subcategoryName" />
+          <ScalarProperty Name="categoryID" ColumnName="categoryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TEAMS">
+      <EntityTypeMapping TypeName="cyjdatabaseModel.TEAM">
+        <MappingFragment StoreEntitySet="TEAMS">
+          <ScalarProperty Name="teamID" ColumnName="teamID" />
+          <ScalarProperty Name="teamName" ColumnName="teamName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WORKSTREAMS">
+      <EntityTypeMapping TypeName="cyjdatabaseModel.WORKSTREAM">
+        <MappingFragment StoreEntitySet="WORKSTREAMS">
+          <ScalarProperty Name="workstreamID" ColumnName="workstreamID" />
+          <ScalarProperty Name="workstreamName" ColumnName="workstreamName" />
+          <ScalarProperty Name="teamID" ColumnName="teamID" />
+          <ScalarProperty Name="categoryID" ColumnName="categoryID" />
+          <ScalarProperty Name="subcategoryID" ColumnName="subcategoryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="cyjdatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ABOUT">
+    <Key>
+      <PropertyRef Name="aboutID" />
+    </Key>
+    <Property Name="aboutID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="aboutHeader" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="aboutBody" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CALENDAR">
+    <Key>
+      <PropertyRef Name="eventID" />
+    </Key>
+    <Property Name="eventID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="eventHeader" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="eventDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="eventStart" Type="DateTime" Precision="3" />
+    <Property Name="eventEnd" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="CATEGORy">
+    <Key>
+      <PropertyRef Name="categoryID" />
+    </Key>
+    <Property Name="categoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="categoryName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="workstreamID" Type="Int32" />
+    <NavigationProperty Name="WORKSTREAM" Relationship="Self.FK__CATEGORIE__works__5165187F" FromRole="CATEGORIES" ToRole="WORKSTREAMS" />
+    <NavigationProperty Name="CHARTS" Relationship="Self.FK__CHARTS__category__68487DD7" FromRole="CATEGORIES" ToRole="CHARTS" />
+    <NavigationProperty Name="GOALACTUALS" Relationship="Self.FK__GOALACTUA__categ__60A75C0F" FromRole="CATEGORIES" ToRole="GOALACTUALS" />
+    <NavigationProperty Name="SUBCATEGORIES" Relationship="Self.FK__SUBCATEGO__categ__5441852A" FromRole="CATEGORIES" ToRole="SUBCATEGORIES" />
+    <NavigationProperty Name="WORKSTREAMS" Relationship="Self.FK__WORKSTREA__categ__5535A963" FromRole="CATEGORIES" ToRole="WORKSTREAMS" />
+  </EntityType>
+  <EntityType Name="CHART">
+    <Key>
+      <PropertyRef Name="chartID" />
+    </Key>
+    <Property Name="chartID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="chartName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Xaxis" Type="Int32" />
+    <Property Name="Yaxis" Type="Int32" />
+    <Property Name="teamID" Type="Int32" />
+    <Property Name="workstreamID" Type="Int32" />
+    <Property Name="categoryID" Type="Int32" />
+    <Property Name="subcategoryID" Type="Int32" />
+    <Property Name="fiscalYearID" Type="Int32" />
+    <Property Name="quarteroptionID" Type="Int32" />
+    <Property Name="goalActualID" Type="Int32" />
+    <NavigationProperty Name="CATEGORy" Relationship="Self.FK__CHARTS__category__68487DD7" FromRole="CHARTS" ToRole="CATEGORIES" />
+    <NavigationProperty Name="FISCALYEAR" Relationship="Self.FK__CHARTS__fiscalYe__6A30C649" FromRole="CHARTS" ToRole="FISCALYEARS" />
+    <NavigationProperty Name="GOALACTUAL" Relationship="Self.FK__CHARTS__goalActu__6C190EBB" FromRole="CHARTS" ToRole="GOALACTUALS" />
+    <NavigationProperty Name="QUARTEROPTION" Relationship="Self.FK__CHARTS__quartero__6B24EA82" FromRole="CHARTS" ToRole="QUARTEROPTIONS" />
+    <NavigationProperty Name="SUBCATEGORy" Relationship="Self.FK__CHARTS__subcateg__693CA210" FromRole="CHARTS" ToRole="SUBCATEGORIES" />
+    <NavigationProperty Name="TEAM" Relationship="Self.FK__CHARTS__teamID__66603565" FromRole="CHARTS" ToRole="TEAMS" />
+    <NavigationProperty Name="WORKSTREAM" Relationship="Self.FK__CHARTS__workstre__6754599E" FromRole="CHARTS" ToRole="WORKSTREAMS" />
+  </EntityType>
+  <EntityType Name="FISCALYEAR">
+    <Key>
+      <PropertyRef Name="fiscalYearID" />
+    </Key>
+    <Property Name="fiscalYearID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fiscalYear1" Type="Int32" Nullable="false" />
+    <Property Name="subcategoryID" Type="Int32" />
+    <Property Name="quarteroptionID" Type="Int32" />
+    <NavigationProperty Name="CHARTS" Relationship="Self.FK__CHARTS__fiscalYe__6A30C649" FromRole="FISCALYEARS" ToRole="CHARTS" />
+    <NavigationProperty Name="QUARTEROPTION" Relationship="Self.FK__FISCALYEA__quart__5AEE82B9" FromRole="FISCALYEARS" ToRole="QUARTEROPTIONS" />
+    <NavigationProperty Name="GOALACTUALS" Relationship="Self.FK__GOALACTUA__fisca__628FA481" FromRole="FISCALYEARS" ToRole="GOALACTUALS" />
+    <NavigationProperty Name="QUARTEROPTIONS" Relationship="Self.FK__QUARTEROP__fisca__5BE2A6F2" FromRole="FISCALYEARS" ToRole="QUARTEROPTIONS" />
+  </EntityType>
+  <EntityType Name="GOALACTUAL">
+    <Key>
+      <PropertyRef Name="goalActualID" />
+    </Key>
+    <Property Name="goalActualID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="goalValue" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="actualGoal" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="teamID" Type="Int32" />
+    <Property Name="workstreamID" Type="Int32" />
+    <Property Name="categoryID" Type="Int32" />
+    <Property Name="subcategoryID" Type="Int32" />
+    <Property Name="fiscalYearID" Type="Int32" />
+    <Property Name="quarteroptionID" Type="Int32" />
+    <NavigationProperty Name="CATEGORy" Relationship="Self.FK__GOALACTUA__categ__60A75C0F" FromRole="GOALACTUALS" ToRole="CATEGORIES" />
+    <NavigationProperty Name="CHARTS" Relationship="Self.FK__CHARTS__goalActu__6C190EBB" FromRole="GOALACTUALS" ToRole="CHARTS" />
+    <NavigationProperty Name="FISCALYEAR" Relationship="Self.FK__GOALACTUA__fisca__628FA481" FromRole="GOALACTUALS" ToRole="FISCALYEARS" />
+    <NavigationProperty Name="QUARTEROPTION" Relationship="Self.FK__GOALACTUA__quart__6383C8BA" FromRole="GOALACTUALS" ToRole="QUARTEROPTIONS" />
+    <NavigationProperty Name="SUBCATEGORy" Relationship="Self.FK__GOALACTUA__subca__619B8048" FromRole="GOALACTUALS" ToRole="SUBCATEGORIES" />
+    <NavigationProperty Name="TEAM" Relationship="Self.FK__GOALACTUA__teamI__5EBF139D" FromRole="GOALACTUALS" ToRole="TEAMS" />
+    <NavigationProperty Name="WORKSTREAM" Relationship="Self.FK__GOALACTUA__works__5FB337D6" FromRole="GOALACTUALS" ToRole="WORKSTREAMS" />
+  </EntityType>
+  <EntityType Name="QUARTERLYUPDATE">
+    <Key>
+      <PropertyRef Name="updateID" />
+    </Key>
+    <Property Name="updateID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="updateHeader" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="updateBody" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="updateDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="QUARTEROPTION">
+    <Key>
+      <PropertyRef Name="quarteroptionID" />
+    </Key>
+    <Property Name="quarteroptionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="quarteroptionName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="subcategoryID" Type="Int32" />
+    <Property Name="fiscalYearID" Type="Int32" />
+    <NavigationProperty Name="CHARTS" Relationship="Self.FK__CHARTS__quartero__6B24EA82" FromRole="QUARTEROPTIONS" ToRole="CHARTS" />
+    <NavigationProperty Name="FISCALYEARS" Relationship="Self.FK__FISCALYEA__quart__5AEE82B9" FromRole="QUARTEROPTIONS" ToRole="FISCALYEARS" />
+    <NavigationProperty Name="FISCALYEAR" Relationship="Self.FK__QUARTEROP__fisca__5BE2A6F2" FromRole="QUARTEROPTIONS" ToRole="FISCALYEARS" />
+    <NavigationProperty Name="GOALACTUALS" Relationship="Self.FK__GOALACTUA__quart__6383C8BA" FromRole="QUARTEROPTIONS" ToRole="GOALACTUALS" />
+  </EntityType>
+  <EntityType Name="SUBCATEGORy">
+    <Key>
+      <PropertyRef Name="subcategoryID" />
+    </Key>
+    <Property Name="subcategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="subcategoryName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="categoryID" Type="Int32" />
+    <NavigationProperty Name="CATEGORy" Relationship="Self.FK__SUBCATEGO__categ__5441852A" FromRole="SUBCATEGORIES" ToRole="CATEGORIES" />
+    <NavigationProperty Name="CHARTS" Relationship="Self.FK__CHARTS__subcateg__693CA210" FromRole="SUBCATEGORIES" ToRole="CHARTS" />
+    <NavigationProperty Name="GOALACTUALS" Relationship="Self.FK__GOALACTUA__subca__619B8048" FromRole="SUBCATEGORIES" ToRole="GOALACTUALS" />
+    <NavigationProperty Name="WORKSTREAMS" Relationship="Self.FK__WORKSTREA__subca__5629CD9C" FromRole="SUBCATEGORIES" ToRole="WORKSTREAMS" />
+  </EntityType>
+  <EntityType Name="TEAM">
+    <Key>
+      <PropertyRef Name="teamID" />
+    </Key>
+    <Property Name="teamID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="teamName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="CHARTS" Relationship="Self.FK__CHARTS__teamID__66603565" FromRole="TEAMS" ToRole="CHARTS" />
+    <NavigationProperty Name="GOALACTUALS" Relationship="Self.FK__GOALACTUA__teamI__5EBF139D" FromRole="TEAMS" ToRole="GOALACTUALS" />
+    <NavigationProperty Name="WORKSTREAMS" Relationship="Self.FK__WORKSTREA__teamI__4BAC3F29" FromRole="TEAMS" ToRole="WORKSTREAMS" />
+  </EntityType>
+  <EntityType Name="WORKSTREAM">
+    <Key>
+      <PropertyRef Name="workstreamID" />
+    </Key>
+    <Property Name="workstreamID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="workstreamName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="teamID" Type="Int32" />
+    <Property Name="categoryID" Type="Int32" />
+    <Property Name="subcategoryID" Type="Int32" />
+    <NavigationProperty Name="CATEGORIES" Relationship="Self.FK__CATEGORIE__works__5165187F" FromRole="WORKSTREAMS" ToRole="CATEGORIES" />
+    <NavigationProperty Name="CATEGORy" Relationship="Self.FK__WORKSTREA__categ__5535A963" FromRole="WORKSTREAMS" ToRole="CATEGORIES" />
+    <NavigationProperty Name="CHARTS" Relationship="Self.FK__CHARTS__workstre__6754599E" FromRole="WORKSTREAMS" ToRole="CHARTS" />
+    <NavigationProperty Name="GOALACTUALS" Relationship="Self.FK__GOALACTUA__works__5FB337D6" FromRole="WORKSTREAMS" ToRole="GOALACTUALS" />
+    <NavigationProperty Name="SUBCATEGORy" Relationship="Self.FK__WORKSTREA__subca__5629CD9C" FromRole="WORKSTREAMS" ToRole="SUBCATEGORIES" />
+    <NavigationProperty Name="TEAM" Relationship="Self.FK__WORKSTREA__teamI__4BAC3F29" FromRole="WORKSTREAMS" ToRole="TEAMS" />
+  </EntityType>
+  <Association Name="FK__CATEGORIE__works__5165187F">
+    <End Role="WORKSTREAMS" Type="Self.WORKSTREAM" Multiplicity="0..1" />
+    <End Role="CATEGORIES" Type="Self.CATEGORy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WORKSTREAMS">
+        <PropertyRef Name="workstreamID" />
+      </Principal>
+      <Dependent Role="CATEGORIES">
+        <PropertyRef Name="workstreamID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CHARTS__category__68487DD7">
+    <End Role="CATEGORIES" Type="Self.CATEGORy" Multiplicity="0..1" />
+    <End Role="CHARTS" Type="Self.CHART" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CATEGORIES">
+        <PropertyRef Name="categoryID" />
+      </Principal>
+      <Dependent Role="CHARTS">
+        <PropertyRef Name="categoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__GOALACTUA__categ__60A75C0F">
+    <End Role="CATEGORIES" Type="Self.CATEGORy" Multiplicity="0..1" />
+    <End Role="GOALACTUALS" Type="Self.GOALACTUAL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CATEGORIES">
+        <PropertyRef Name="categoryID" />
+      </Principal>
+      <Dependent Role="GOALACTUALS">
+        <PropertyRef Name="categoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SUBCATEGO__categ__5441852A">
+    <End Role="CATEGORIES" Type="Self.CATEGORy" Multiplicity="0..1" />
+    <End Role="SUBCATEGORIES" Type="Self.SUBCATEGORy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CATEGORIES">
+        <PropertyRef Name="categoryID" />
+      </Principal>
+      <Dependent Role="SUBCATEGORIES">
+        <PropertyRef Name="categoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__WORKSTREA__categ__5535A963">
+    <End Role="CATEGORIES" Type="Self.CATEGORy" Multiplicity="0..1" />
+    <End Role="WORKSTREAMS" Type="Self.WORKSTREAM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CATEGORIES">
+        <PropertyRef Name="categoryID" />
+      </Principal>
+      <Dependent Role="WORKSTREAMS">
+        <PropertyRef Name="categoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CHARTS__fiscalYe__6A30C649">
+    <End Role="FISCALYEARS" Type="Self.FISCALYEAR" Multiplicity="0..1" />
+    <End Role="CHARTS" Type="Self.CHART" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FISCALYEARS">
+        <PropertyRef Name="fiscalYearID" />
+      </Principal>
+      <Dependent Role="CHARTS">
+        <PropertyRef Name="fiscalYearID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CHARTS__goalActu__6C190EBB">
+    <End Role="GOALACTUALS" Type="Self.GOALACTUAL" Multiplicity="0..1" />
+    <End Role="CHARTS" Type="Self.CHART" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GOALACTUALS">
+        <PropertyRef Name="goalActualID" />
+      </Principal>
+      <Dependent Role="CHARTS">
+        <PropertyRef Name="goalActualID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CHARTS__quartero__6B24EA82">
+    <End Role="QUARTEROPTIONS" Type="Self.QUARTEROPTION" Multiplicity="0..1" />
+    <End Role="CHARTS" Type="Self.CHART" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QUARTEROPTIONS">
+        <PropertyRef Name="quarteroptionID" />
+      </Principal>
+      <Dependent Role="CHARTS">
+        <PropertyRef Name="quarteroptionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CHARTS__subcateg__693CA210">
+    <End Role="SUBCATEGORIES" Type="Self.SUBCATEGORy" Multiplicity="0..1" />
+    <End Role="CHARTS" Type="Self.CHART" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SUBCATEGORIES">
+        <PropertyRef Name="subcategoryID" />
+      </Principal>
+      <Dependent Role="CHARTS">
+        <PropertyRef Name="subcategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CHARTS__teamID__66603565">
+    <End Role="TEAMS" Type="Self.TEAM" Multiplicity="0..1" />
+    <End Role="CHARTS" Type="Self.CHART" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TEAMS">
+        <PropertyRef Name="teamID" />
+      </Principal>
+      <Dependent Role="CHARTS">
+        <PropertyRef Name="teamID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CHARTS__workstre__6754599E">
+    <End Role="WORKSTREAMS" Type="Self.WORKSTREAM" Multiplicity="0..1" />
+    <End Role="CHARTS" Type="Self.CHART" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WORKSTREAMS">
+        <PropertyRef Name="workstreamID" />
+      </Principal>
+      <Dependent Role="CHARTS">
+        <PropertyRef Name="workstreamID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__FISCALYEA__quart__5AEE82B9">
+    <End Role="QUARTEROPTIONS" Type="Self.QUARTEROPTION" Multiplicity="0..1" />
+    <End Role="FISCALYEARS" Type="Self.FISCALYEAR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QUARTEROPTIONS">
+        <PropertyRef Name="quarteroptionID" />
+      </Principal>
+      <Dependent Role="FISCALYEARS">
+        <PropertyRef Name="quarteroptionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__GOALACTUA__fisca__628FA481">
+    <End Role="FISCALYEARS" Type="Self.FISCALYEAR" Multiplicity="0..1" />
+    <End Role="GOALACTUALS" Type="Self.GOALACTUAL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FISCALYEARS">
+        <PropertyRef Name="fiscalYearID" />
+      </Principal>
+      <Dependent Role="GOALACTUALS">
+        <PropertyRef Name="fiscalYearID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__QUARTEROP__fisca__5BE2A6F2">
+    <End Role="FISCALYEARS" Type="Self.FISCALYEAR" Multiplicity="0..1" />
+    <End Role="QUARTEROPTIONS" Type="Self.QUARTEROPTION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FISCALYEARS">
+        <PropertyRef Name="fiscalYearID" />
+      </Principal>
+      <Dependent Role="QUARTEROPTIONS">
+        <PropertyRef Name="fiscalYearID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__GOALACTUA__quart__6383C8BA">
+    <End Role="QUARTEROPTIONS" Type="Self.QUARTEROPTION" Multiplicity="0..1" />
+    <End Role="GOALACTUALS" Type="Self.GOALACTUAL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QUARTEROPTIONS">
+        <PropertyRef Name="quarteroptionID" />
+      </Principal>
+      <Dependent Role="GOALACTUALS">
+        <PropertyRef Name="quarteroptionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__GOALACTUA__subca__619B8048">
+    <End Role="SUBCATEGORIES" Type="Self.SUBCATEGORy" Multiplicity="0..1" />
+    <End Role="GOALACTUALS" Type="Self.GOALACTUAL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SUBCATEGORIES">
+        <PropertyRef Name="subcategoryID" />
+      </Principal>
+      <Dependent Role="GOALACTUALS">
+        <PropertyRef Name="subcategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__GOALACTUA__teamI__5EBF139D">
+    <End Role="TEAMS" Type="Self.TEAM" Multiplicity="0..1" />
+    <End Role="GOALACTUALS" Type="Self.GOALACTUAL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TEAMS">
+        <PropertyRef Name="teamID" />
+      </Principal>
+      <Dependent Role="GOALACTUALS">
+        <PropertyRef Name="teamID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__GOALACTUA__works__5FB337D6">
+    <End Role="WORKSTREAMS" Type="Self.WORKSTREAM" Multiplicity="0..1" />
+    <End Role="GOALACTUALS" Type="Self.GOALACTUAL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WORKSTREAMS">
+        <PropertyRef Name="workstreamID" />
+      </Principal>
+      <Dependent Role="GOALACTUALS">
+        <PropertyRef Name="workstreamID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__WORKSTREA__subca__5629CD9C">
+    <End Role="SUBCATEGORIES" Type="Self.SUBCATEGORy" Multiplicity="0..1" />
+    <End Role="WORKSTREAMS" Type="Self.WORKSTREAM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SUBCATEGORIES">
+        <PropertyRef Name="subcategoryID" />
+      </Principal>
+      <Dependent Role="WORKSTREAMS">
+        <PropertyRef Name="subcategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__WORKSTREA__teamI__4BAC3F29">
+    <End Role="TEAMS" Type="Self.TEAM" Multiplicity="0..1" />
+    <End Role="WORKSTREAMS" Type="Self.WORKSTREAM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TEAMS">
+        <PropertyRef Name="teamID" />
+      </Principal>
+      <Dependent Role="WORKSTREAMS">
+        <PropertyRef Name="teamID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="cyjdatabaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ABOUTs" EntityType="Self.ABOUT" />
+    <EntitySet Name="CALENDARs" EntityType="Self.CALENDAR" />
+    <EntitySet Name="CATEGORIES" EntityType="Self.CATEGORy" />
+    <EntitySet Name="CHARTS" EntityType="Self.CHART" />
+    <EntitySet Name="FISCALYEARS" EntityType="Self.FISCALYEAR" />
+    <EntitySet Name="GOALACTUALS" EntityType="Self.GOALACTUAL" />
+    <EntitySet Name="QUARTERLYUPDATEs" EntityType="Self.QUARTERLYUPDATE" />
+    <EntitySet Name="QUARTEROPTIONS" EntityType="Self.QUARTEROPTION" />
+    <EntitySet Name="SUBCATEGORIES" EntityType="Self.SUBCATEGORy" />
+    <EntitySet Name="TEAMS" EntityType="Self.TEAM" />
+    <EntitySet Name="WORKSTREAMS" EntityType="Self.WORKSTREAM" />
+    <AssociationSet Name="FK__CATEGORIE__works__5165187F" Association="Self.FK__CATEGORIE__works__5165187F">
+      <End Role="WORKSTREAMS" EntitySet="WORKSTREAMS" />
+      <End Role="CATEGORIES" EntitySet="CATEGORIES" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CHARTS__category__68487DD7" Association="Self.FK__CHARTS__category__68487DD7">
+      <End Role="CATEGORIES" EntitySet="CATEGORIES" />
+      <End Role="CHARTS" EntitySet="CHARTS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__GOALACTUA__categ__60A75C0F" Association="Self.FK__GOALACTUA__categ__60A75C0F">
+      <End Role="CATEGORIES" EntitySet="CATEGORIES" />
+      <End Role="GOALACTUALS" EntitySet="GOALACTUALS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SUBCATEGO__categ__5441852A" Association="Self.FK__SUBCATEGO__categ__5441852A">
+      <End Role="CATEGORIES" EntitySet="CATEGORIES" />
+      <End Role="SUBCATEGORIES" EntitySet="SUBCATEGORIES" />
+    </AssociationSet>
+    <AssociationSet Name="FK__WORKSTREA__categ__5535A963" Association="Self.FK__WORKSTREA__categ__5535A963">
+      <End Role="CATEGORIES" EntitySet="CATEGORIES" />
+      <End Role="WORKSTREAMS" EntitySet="WORKSTREAMS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CHARTS__fiscalYe__6A30C649" Association="Self.FK__CHARTS__fiscalYe__6A30C649">
+      <End Role="FISCALYEARS" EntitySet="FISCALYEARS" />
+      <End Role="CHARTS" EntitySet="CHARTS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CHARTS__goalActu__6C190EBB" Association="Self.FK__CHARTS__goalActu__6C190EBB">
+      <End Role="GOALACTUALS" EntitySet="GOALACTUALS" />
+      <End Role="CHARTS" EntitySet="CHARTS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CHARTS__quartero__6B24EA82" Association="Self.FK__CHARTS__quartero__6B24EA82">
+      <End Role="QUARTEROPTIONS" EntitySet="QUARTEROPTIONS" />
+      <End Role="CHARTS" EntitySet="CHARTS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CHARTS__subcateg__693CA210" Association="Self.FK__CHARTS__subcateg__693CA210">
+      <End Role="SUBCATEGORIES" EntitySet="SUBCATEGORIES" />
+      <End Role="CHARTS" EntitySet="CHARTS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CHARTS__teamID__66603565" Association="Self.FK__CHARTS__teamID__66603565">
+      <End Role="TEAMS" EntitySet="TEAMS" />
+      <End Role="CHARTS" EntitySet="CHARTS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CHARTS__workstre__6754599E" Association="Self.FK__CHARTS__workstre__6754599E">
+      <End Role="WORKSTREAMS" EntitySet="WORKSTREAMS" />
+      <End Role="CHARTS" EntitySet="CHARTS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__FISCALYEA__quart__5AEE82B9" Association="Self.FK__FISCALYEA__quart__5AEE82B9">
+      <End Role="QUARTEROPTIONS" EntitySet="QUARTEROPTIONS" />
+      <End Role="FISCALYEARS" EntitySet="FISCALYEARS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__GOALACTUA__fisca__628FA481" Association="Self.FK__GOALACTUA__fisca__628FA481">
+      <End Role="FISCALYEARS" EntitySet="FISCALYEARS" />
+      <End Role="GOALACTUALS" EntitySet="GOALACTUALS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__QUARTEROP__fisca__5BE2A6F2" Association="Self.FK__QUARTEROP__fisca__5BE2A6F2">
+      <End Role="FISCALYEARS" EntitySet="FISCALYEARS" />
+      <End Role="QUARTEROPTIONS" EntitySet="QUARTEROPTIONS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__GOALACTUA__quart__6383C8BA" Association="Self.FK__GOALACTUA__quart__6383C8BA">
+      <End Role="QUARTEROPTIONS" EntitySet="QUARTEROPTIONS" />
+      <End Role="GOALACTUALS" EntitySet="GOALACTUALS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__GOALACTUA__subca__619B8048" Association="Self.FK__GOALACTUA__subca__619B8048">
+      <End Role="SUBCATEGORIES" EntitySet="SUBCATEGORIES" />
+      <End Role="GOALACTUALS" EntitySet="GOALACTUALS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__GOALACTUA__teamI__5EBF139D" Association="Self.FK__GOALACTUA__teamI__5EBF139D">
+      <End Role="TEAMS" EntitySet="TEAMS" />
+      <End Role="GOALACTUALS" EntitySet="GOALACTUALS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__GOALACTUA__works__5FB337D6" Association="Self.FK__GOALACTUA__works__5FB337D6">
+      <End Role="WORKSTREAMS" EntitySet="WORKSTREAMS" />
+      <End Role="GOALACTUALS" EntitySet="GOALACTUALS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__WORKSTREA__subca__5629CD9C" Association="Self.FK__WORKSTREA__subca__5629CD9C">
+      <End Role="SUBCATEGORIES" EntitySet="SUBCATEGORIES" />
+      <End Role="WORKSTREAMS" EntitySet="WORKSTREAMS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__WORKSTREA__teamI__4BAC3F29" Association="Self.FK__WORKSTREA__teamI__4BAC3F29">
+      <End Role="TEAMS" EntitySet="TEAMS" />
+      <End Role="WORKSTREAMS" EntitySet="WORKSTREAMS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
